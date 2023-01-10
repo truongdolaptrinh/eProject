@@ -199,6 +199,14 @@ header .navigation .navigation-items a:hover:before{
     transition-property: clip-path;
 }
 
+.heading{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 .category .box-container {
     display: -ms-grid;
     display: grid;
@@ -220,12 +228,12 @@ header .navigation .navigation-items a:hover:before{
   }
   
   .category .box-container .box h3 {
-    font-size: 2rem;
+    font-size: 30px;
     color: #219150;
   }
   
   .category .box-container .box p {
-    font-size: 1.5rem;
+    font-size: 20px;
     color: #10221b;
     padding: 1rem 0;
     line-height: 2;
