@@ -239,6 +239,14 @@ header .navigation .navigation-items a:hover:before{
     line-height: 2;
   }
 
+.cartProduct{
+    width: 100%;
+    margin: 20px 0;
+}
+.info{
+    display: flex;
+}
+
 .footer {
     margin-top: 30px;
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/footer-bg.jpg) no-repeat;
