@@ -205,6 +205,7 @@ header .navigation .navigation-items a:hover:before{
     font-weight: 500;
     margin-top: 30px;
     margin-bottom: 30px;
+    text-transform: uppercase;
 }
 
 .category .box-container {
@@ -221,8 +222,8 @@ header .navigation .navigation-items a:hover:before{
   }
   
   .category .box-container .box img {
-    height: 20rem;
-    width: 20rem;
+    height: 19rem;
+    width: 19rem;
     border-radius: 50%;
     margin-bottom: 1rem;
   }
@@ -375,7 +376,16 @@ color: #219150;
     }
 }
 
-
+.box .btn{
+    text-decoration: none;
+}
+.btn:hover{
+    transition: 0.5s;
+    background-color: rgb(50, 153, 119);
+    padding: 7px;
+    border-radius: 10px;
+    color: white;
+}
 
 
 
