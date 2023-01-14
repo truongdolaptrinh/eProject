@@ -8,25 +8,15 @@ menuBtn.addEventListener("click", () => {
     navigation.classList.toggle("active");
 });
 
-// window.onscroll = () =>{
-//     navbar.classList.remove('active');
+window.onscroll = () =>{
+    navbar.classList.remove('active');
 
-//     if(window.scrollY > 0){
-//         document.querySelector('header').classList.add('active');
-//     }else{
-//         document.querySelector('header').classList.remove('active');
-//     }
-// };
-
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById(".nav-bar").style.top = "0";
-  } else {
-    document.getElementById(".nav-bar").style.top = "-50px";
-  }
-}
+    if(window.scrollY > 0){
+        document.querySelector('header').classList.add('active');
+    }else{
+        document.querySelector('header').classList.remove('active');
+    }
+};
 
 window.onload = () =>{
     if(window.scrollY > 0){
