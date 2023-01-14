@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100;1,300&display=swap");
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        .section-p1{
+            margin: 40px 40px;
+        }
+        
+        .detail-tour{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .name-tour p{
+            font-weight: 600;
+            font-size: 30px;
+            color: #504B49;
+        }
+
+        .text-tour p{
+            font-weight: 600;
+            font-size: 18px;
+            color: #504B49;
+        }
+        .course{
+            margin-top: 50px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .sep{
+            position: relative;
+            overflow: hidden;
+        }
+        .sep h4{
+            clear: both;
+            font-size: 24px;
+            color: #504B49;
+        }
+
+        .sep:after {
+            border-top: 2px solid #ffc600;
+            content: "seperator";
+            position: absolute;
+            text-indent: -9999em;
+            top: 50%;
+            width: 100%;
+            padding-left: 10px;
+            margin-left: 10px;
+        }
+
+        .slide-picture{
+            width: 600px;
+        }
+        
+        .picture img{
+            width: 100%;
+            height: 200px;
+        }
+
+        .slider-navigation{
+            z-index: 888;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform: translateY(80px);
+            margin-bottom: 12px;
+        }
+
+        .slider-navigation .nav-btn{
+            width: 12px;
+            height: 12px;
+            background: rgb(13, 13, 13);
+            border-radius: 50%;
+            cursor: pointer;
+            box-shadow: 0 0 2px rgba(255, 255, 255, 0.5);
+            transition: 0.3s ease;
+        }
+
+        .slider-navigation .nav-btn.active{
+            background: #2696E9;
+        }
+
+        .slider-navigation .nav-btn:not(:last-child) {
+            margin-right: 20px;
+        }
+
+        .slider-navigation .nav-btn:hover{
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+<body>
+    <section>
+
+    </section>
+    
+    <section class="section-p1">
+        <div class="detail-tour">
+            <div class="name-tour">
+                <p>Aconcacgua Expedition</p>
+            </div>
+            <div class="text-tour">
+                <p>This leadership & guide training course ventures into the central Andes to attempt a summit of Aconcagua. It is one of the seven summits and the highest peak outside of Asia reaching an altitude of 22,841'. This comprehensive expedition course focuses on teaching students to be safe, efficient, knowledgeable and confident outdoor leaders in a high altitude mountain environment.</p>
+            </div>
+            <div class="course">
+                <div class="slide-picture">
+                    <div class="sep">
+                        <h4>Course Photos</h4>
+                    </div>
+                    <div class="picture">
+                        <img src="../images/home-bg-1.jpg" alt="">
+                    </div>
+                    <div class="slider-navigation">
+                        <div class="nav-btn active"></div>
+                        <div class="nav-btn"></div>
+                        <div class="nav-btn"></div>
+                        <div class="nav-btn"></div>
+                    </div>
+                </div>
+
+                <div class="note-tour">
+                    <div class="sep">
+                        <h4>Course Photos</h4>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>Location: South America</li>
+                            <li>Meeting Point: Mendoza, Argentina</li>
+                            <li>Destination: Aconcagua</li>
+                            <li>Duration: 20 days</li>
+                            <li>Price: $5800 (+ tax, in USD)</li>
+                            <li>Activity Type: Mountaineering</li>
+                            <li>Season: January, February, December</li>
+                            <li>Instructor/Student Ratio: 1 to 4</li>
+                            <li>Technical Skills: high altitude medicine, ice axe, crampon use</li>
+                            <li>Leadership Skills: expedition planning, group management</li>
+                            <li>Max group size: 8 students</li>
+                            <li>Difficulty Level: 5 out of 5</li>
+                            <li>Paperwork Required: Registration, Health Form, travel insurance, Land Based Activity Waiver</li>
+                            <li>Valid passports required</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="sep">
+                <h4>Trip Description</h4>
+            </div>
+        </div>
+    </section>
+
+    <script src="../javascrip/scrip.js"></script>
+</body>
+</html>
