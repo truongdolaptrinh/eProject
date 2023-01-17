@@ -8,23 +8,10 @@ menuBtn.addEventListener("click", () => {
     navigation.classList.toggle("active");
 });
 
-window.onscroll = () =>{
-    navbar.classList.remove('active');
-
-    if(window.scrollY > 0){
-        document.querySelector('header').classList.add('active');
-    }else{
-        document.querySelector('header').classList.remove('active');
-    }
-};
-
-window.onload = () =>{
-    if(window.scrollY > 0){
-        document.querySelector('header').classList.add('active');
-    }else{
-        document.querySelector('header').classList.remove('active');
-    }
-};
+window.addEventListener("scroll", function() {
+    const header = document.querySelector("header");
+    header.classList.toggle("sticky", window.scrollY > 0);
+})
 
 const btns = document.querySelectorAll(".nav-btn");
 const slides = document.querySelectorAll(".video-slide");

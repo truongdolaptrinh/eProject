@@ -6,6 +6,22 @@
     font-family: 'Poppins', sans-serif;
 }
 
+::-webkit-scrollbar {
+    width: 1rem;
+    background: #1680AC;
+}
+  
+::-webkit-scrollbar-track {
+    background: rgb(151, 151, 151);
+}
+  
+::-webkit-scrollbar-thumb {
+    width: 100%;
+    background: #222;
+    border-radius: 2em;
+}
+  
+
 body{
     background-color: #131b2b;
 }
@@ -19,8 +35,8 @@ li{
 }
 
 header{
-    z-index: 1000;
-    position: absolute;
+    z-index: 999;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -29,10 +45,12 @@ header{
     align-items: center;
     padding: 15px 200px;
     transition: 0.5 ease;
+    transition-property: height, background;
 }
 
-header.active {
-    background: #eee;
+header.sticky {
+    height: calc(2.5rem + 1rem);
+    background: #5e5e5e;
     -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
             box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
@@ -73,7 +91,6 @@ header .navigation .navigation-items a:before{
 header .navigation .navigation-items a:hover:before{
     width: 100%;
 }
-
 
 #home {
     position: relative;
@@ -210,7 +227,7 @@ header .navigation .navigation-items a:hover:before{
 
 .video-slide.active{
     clip-path: circle(150% at 0 50%);
-    transition: 2s ease;
+    transition: 1s ease;
     transition-property: clip-path;
 }
 
