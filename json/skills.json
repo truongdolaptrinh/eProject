@@ -1,0 +1,17 @@
+{
+    "skills":
+    [
+        {
+            "nameSkills": "Route Finding and Navigation for Mountaineerin",
+            "links": "../html/skills_route_finding_nfm.html"
+        },
+        {
+            "nameSkills": "How to Climb Finger Cracks",
+            "links": "../html/skills_climb_finger_cracks.html"
+        },
+        {
+            "nameSkills": "How to Use a Hangboard to Train for Rock Climbing",
+            "links": "../html/skills_use_hangboard.html"
+        }
+    ]
+}
