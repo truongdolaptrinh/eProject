@@ -287,7 +287,7 @@ header .navigation .navigation-items a:hover:before{
     margin: 10px 0px;
 }
 .product-text .product-price{
-    font-size: 1.6rem;
+    font-size: 2.5rem;
     color: #252525;
     font-weight: 500;
 }
@@ -407,6 +407,7 @@ header .navigation .navigation-items a:hover:before{
     font-size: 16px;
     color: #fff;
     padding: 10px 0;
+    text-decoration: none;
 }
 
 .footer .box-container .box a i {
@@ -416,10 +417,6 @@ padding-right: .5rem;
 
 .footer .box-container .box a:hover {
 color: #219150;
-}
-
-.footer .box-container .box a:hover i {
-padding-right: 2rem;
 }
 
 .footer .credit {
@@ -542,8 +539,11 @@ color: #219150;
     border-radius: 10px;
     color: white;
 }
-
-
-
+.add-bag-btn{
+    text-decoration: none;
+}
+.course-note span{
+    font-weight: bold;
+}
 
 

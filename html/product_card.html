@@ -1,29 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
 
-  <style>
-    :root{
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+
+	<style>
+		:root {
 			--gra: linear-gradient(45deg, cyan, royalblue);
 		}
-		*{
+
+		* {
 			padding: 0;
 			margin: 0;
 			box-sizing: border-box;
 		}
 
-		main{
+		main {
 			width: 98%;
 			background: white;
 			margin: 60px auto;
 			font-family: sans-serif;
 		}
-		header{
+
+		header {
 			width: 100%;
 			height: 100px;
 			border-bottom: 2px solid #e5e5e5;
@@ -31,7 +34,8 @@
 			align-items: center;
 			justify-content: space-between;
 		}
-		header ul li{
+
+		header ul li {
 			list-style: none;
 			padding: 20px;
 			margin: 10px;
@@ -41,42 +45,50 @@
 			/*background: red;*/
 
 		}
-		header ul li a{
+
+		header ul li a {
 			color: inherit;
 			text-decoration: none;
 		}
-		header ul li.active{
+
+		header ul li.active {
 			background: var(--gra);
 		}
-		header ul li.active a{
+
+		header ul li.active a {
 			color: white;
 			font-weight: bold;
 		}
-		.filter-condition{
+
+		.filter-condition {
 			padding: 20px;
 			height: 100px;
 			font-size: 20px;
 			font-weight: bold;
 		}
-		.filter-condition select{
+
+		.filter-condition select {
 			width: 120px;
-		    padding: 0 0 0 10px;
-		    border: none;
-		    outline: none;
-		    font-weight: bold;
-		    color: purple;
-		    background: transparent;
-		    cursor: pointer;
+			padding: 0 0 0 10px;
+			border: none;
+			outline: none;
+			font-weight: bold;
+			color: purple;
+			background: transparent;
+			cursor: pointer;
 		}
-		.product-field{
+
+		.product-field {
 			padding: 40px 20px;
 		}
-		.product-field ul{
+
+		.product-field ul {
 			width: 100%;
 			display: flex;
 			flex-wrap: wrap;
 		}
-		.product-field ul li{
+
+		.product-field ul li {
 			list-style: none;
 			width: 23.4%;
 			height: 400px;
@@ -88,99 +100,197 @@
 			margin: 200px 10px 0 10px;
 			position: relative;
 		}
-		picture{
+
+		picture {
 			background: #eee;
 			padding: 5px;
-		    position: absolute;
-		    right: 0;
-		    bottom: 41%;
-		    width: 75%;
-		    height: 85%;
-		    border-radius: 50px 20px 0 20px;
-		    transform: skewY(40deg);
-		    overflow: hidden;
-		    box-shadow: 0px 1px 0px #00000020, -1px 0px 0px #ccc;
+			position: absolute;
+			right: 0;
+			bottom: 41%;
+			width: 75%;
+			height: 85%;
+			border-radius: 50px 20px 0 20px;
+			transform: skewY(40deg);
+			overflow: hidden;
+			box-shadow: 0px 1px 0px #00000020, -1px 0px 0px #ccc;
 		}
+
 		picture img {
-		  width: 95%;
-		  z-index: 1;
-		  transform: skewY(-40deg);
-		  padding: 25px 0 0 0;
+			width: 95%;
+			z-index: 1;
+			transform: skewY(-40deg);
+			padding: 25px 0 0 0;
 		}
-		.detail{
+
+		.detail {
 			width: 100%;
 			height: 100%;
 		}
-		.detail .icon{
+
+		.detail .icon {
 			width: 30%;
-		    height: 55%;
-		    padding: 20px 5px;
+			height: 55%;
+			padding: 20px 5px;
 		}
-		.icon span{
+
+		.icon span {
 			background: #00000030;
-		    display: inline-block;
-		    width: 50px;
-		    height: 50px;
-		    line-height: 50px;
-		    text-align: center;
-		    padding: 0;
-		    border-radius: 50%;
-		    margin: 0 0 20px 5px;
-		    font-size: 20px;
-		    color: white;
+			display: inline-block;
+			width: 50px;
+			height: 50px;
+			line-height: 50px;
+			text-align: center;
+			padding: 0;
+			border-radius: 50%;
+			margin: 0 0 20px 5px;
+			font-size: 20px;
+			color: white;
 		}
-		.icon span:hover{
+
+		.icon span:hover {
 			background: var(--gra);
 			cursor: pointer;
 		}
-		.detail > strong{
+
+		.detail>strong {
 			display: inherit;
 			margin: 20px;
 			font-size: 30px;
 			letter-spacing: 2px;
 			color: #555;
 		}
-		.detail > span{
+
+		.detail>span {
 			display: inherit;
 			padding: 0 20px;
-    		width: 80%;
+			width: 80%;
 		}
-		.detail small{
+
+		.detail small {
 			display: inline-block;
-		    padding: 8px 20px;
-		    margin: 15px;
-		    font-weight: bold;
-		    border-radius: 6px;
-		    border: 1px solid #999;
-		    cursor: pointer;
+			padding: 8px 20px;
+			margin: 15px;
+			font-weight: bold;
+			border-radius: 6px;
+			border: 1px solid #999;
+			cursor: pointer;
 		}
-		.detail small:hover{
-			    background: var(--gra);
-			    color: white;
-			    border-color: cyan;
+
+		.detail small:hover {
+			background: var(--gra);
+			color: white;
+			border-color: cyan;
 		}
-		li h4{
-		    position: absolute;
-		    right: 10px;
-		    top: 50%;
-		    font-size: 30px;
-		    color: #555;
-		    text-shadow: 1px 1px 2px black;
+
+		li h4 {
+			position: absolute;
+			right: 10px;
+			top: 50%;
+			font-size: 30px;
+			color: #555;
+			text-shadow: 1px 1px 2px black;
 		}
-  </style>
+
+		.cointainer {
+			width: 100%;
+			/* justify-content: center;
+			display:flex;
+			flex-wrap:wrap; */
+		}
+
+		.box {
+			max-width: 350px;
+			padding: 10px;
+			border: 3px black solid;
+			border-radius: 10px;
+			margin: 10px auto;
+		}
+
+		.box img {
+			max-width: 300px;
+			display: block;
+			object-fit: cover;
+			padding: 5px;
+			margin-left: auto;
+			margin-right: auto;
+			float: left;
+		}
+
+		.box .text {
+			width: 100%;
+			padding: 0 5px;
+			min-width: 300px;
+			float: right;
+		}
+
+		.text a {
+			display: inline-block;
+			background: red;
+			color: wheat;
+			text-decoration: none;
+			padding: 10px;
+			border-radius: 5px;
+			margin-top: 10px;
+			transition: 0.5s;
+			font-size: 20px;
+		}
+
+		.text a:hover {
+			color: rgb(38, 0, 255);
+		}
+
+		@media (min-width: 700px) {
+			.cointainer {
+				display: flex;
+				align-items: center;
+				justify-content: space-around;
+				flex-wrap: wrap;
+			}
+
+			.box {
+				max-width: 700px;
+			}
+
+			.box img {
+				float: left;
+				border-radius: 5%;
+			}
+
+			.box .heading {
+				float: right;
+				width: 50%;
+			}
+
+			.box .text {
+				float: right;
+				width: 50%;
+			}
+		}
+
+		#price {
+			font-size: 37px;
+			font-weight: bold;
+			color: rgb(115, 255, 0);
+		}
+
+		#para {
+			margin: 10px;
+		}
+	</style>
 
 </head>
+
 <body>
-  
-  <main>
+
+	<main>
 		<header>
 			<ul class="indicator">
 				<li data-filter="all" class="active"><a href="#">All</a></li>
 				<li data-filter="Blazer"><a href="#">Blazzer</a></li>
 				<li data-filter="Watch"><a href="#">Watch</a></li>
 				<li data-filter="Shoes"><a href="#">Shoes</a></li>
-				<li data-filter="Mobile"><a href="#">Mobiles</a></li>
-				<li data-filter="Accessories"><a href="#">Accessories</a></li>
+				<li data-filter="Bags"><a href="#">Bags</a></li>
+				<li data-filter="Tour"><a href="#">Tour</a></li>
 			</ul>
 			<div class="filter-condition">
 				<span>View As a</span>
@@ -192,294 +302,364 @@
 			</div>
 		</header>
 		<div class="product-field">
-			<ul class="items">
-				<li data-category=" " data-price=" ">
-					<picture>
-						<img src="../images/product-1.jpg" alt="">
-					</picture>
-					<div class="detail">
-						<p class="icon">
-						   <span><i class="far fa-heart"></i></span>
-						   <span><i class="far fa-share-square"></i></span>
-						   <span><i class="fas fa-shopping-basket"></i></span>
-						</p>
-						<strong>Watch</strong>
-						<span>Lorem, ipsum dolor sit amet consectetur.</span>
-						<small>Buy now</small>
+			<div class="card-gear">
+				<ul class="items">
+					<li data-category=" " data-price=" ">
+						<picture>
+							<img src="../images/shoes.jpg" alt="">
+						</picture>
+						<div class="detail">
+							<p class="icon">
+								<span><i class="far fa-heart"></i></span>
+								<span><i class="far fa-share-square"></i></span>
+								<span><i class="fas fa-shopping-basket"></i></span>
+							</p>
+							<strong>Shoes</strong>
+							<span>Lorem, ipsum dolor sit amet consectetur.</span>
+							<small>Buy now</small>
+						</div>
+						<h4>$45.78</h4>
+					</li>
+					<li data-category=" " data-price=" ">
+						<picture>
+							<img src="../images/blazer1.png" alt="">
+						</picture>
+						<div class="detail">
+							<p class="icon">
+								<span><i class="far fa-heart"></i></span>
+								<span><i class="far fa-share-square"></i></span>
+								<span><i class="fas fa-shopping-basket"></i></span>
+							</p>
+							<strong>Blazer</strong>
+							<span>Lorem, ipsum dolor sit amet consectetur.</span>
+							<small>Buy now</small>
+						</div>
+						<h4>$35.78</h4>
+					</li>
+					<li data-category="" data-price="">
+						<picture>
+							<img src="../images/watch1.png" alt="">
+						</picture>
+						<div class="detail">
+							<p class="icon">
+								<span><i class="far fa-heart"></i></span>
+								<span><i class="far fa-share-square"></i></span>
+								<span><i class="fas fa-shopping-basket"></i></span>
+							</p>
+							<strong>Watch</strong>
+							<span>Lorem, ipsum dolor sit amet consectetur.</span>
+							<small>Buy now</small>
+						</div>
+						<h4>$40.78</h4>
+					</li>
+					<li data-category="" data-price="">
+						<picture>
+							<img src="../images/shoes2.png" alt="">
+						</picture>
+						<div class="detail">
+							<p class="icon">
+								<span><i class="far fa-heart"></i></span>
+								<span><i class="far fa-share-square"></i></span>
+								<span><i class="fas fa-shopping-basket"></i></span>
+							</p>
+							<strong>Shoes</strong>
+							<span>Lorem, ipsum dolor sit amet consectetur.</span>
+							<small>Buy now</small>
+						</div>
+						<h4>$42.78</h4>
+					</li>
+					<li data-category="" data-price="">
+						<picture>
+							<img src="../images/watch2.png" alt="">
+						</picture>
+						<div class="detail">
+							<p class="icon">
+								<span><i class="far fa-heart"></i></span>
+								<span><i class="far fa-share-square"></i></span>
+								<span><i class="fas fa-shopping-basket"></i></span>
+							</p>
+							<strong>Watch</strong>
+							<span>Lorem, ipsum dolor sit amet consectetur.</span>
+							<small>Buy now</small>
+						</div>
+						<h4>$46.78</h4>
+					</li>
+					<li data-category="" data-price="">
+						<picture>
+							<img src="../images/blazer2.png" alt="">
+						</picture>
+						<div class="detail">
+							<p class="icon">
+								<span><i class="far fa-heart"></i></span>
+								<span><i class="far fa-share-square"></i></span>
+								<span><i class="fas fa-shopping-basket"></i></span>
+							</p>
+							<strong>Blazer</strong>
+							<span>Lorem, ipsum dolor sit amet consectetur.</span>
+							<small>Buy now</small>
+						</div>
+						<h4>$55.78</h4>
+					</li>
+					<li data-category="" data-price="">
+						<picture>
+							<img src="../images/bags1.png" alt="">
+						</picture>
+						<div class="detail">
+							<p class="icon">
+								<span><i class="far fa-heart"></i></span>
+								<span><i class="far fa-share-square"></i></span>
+								<span><i class="fas fa-shopping-basket"></i></span>
+							</p>
+							<strong>Bags</strong>
+							<span>Lorem, ipsum dolor sit amet consectetur.</span>
+							<small>Buy now</small>
+						</div>
+						<h4>$25.78</h4>
+					</li>
+
+					<li data-category="" data-price="">
+						<picture>
+							<img src="../images/shoes3.png" alt="">
+						</picture>
+						<div class="detail">
+							<p class="icon">
+								<span><i class="far fa-heart"></i></span>
+								<span><i class="far fa-share-square"></i></span>
+								<span><i class="fas fa-shopping-basket"></i></span>
+							</p>
+							<strong>Shoes</strong>
+							<span>Lorem, ipsum dolor sit amet consectetur.</span>
+							<small>Buy now</small>
+						</div>
+						<h4>$15.78</h4>
+					</li>
+
+					<li data-category="" data-price="">
+						<picture>
+							<img src="../images/bags2.png" alt="">
+						</picture>
+						<div class="detail">
+							<p class="icon">
+								<span><i class="far fa-heart"></i></span>
+								<span><i class="far fa-share-square"></i></span>
+								<span><i class="fas fa-shopping-basket"></i></span>
+							</p>
+							<strong>Bags</strong>
+							<span>Lorem, ipsum dolor sit amet consectetur.</span>
+							<small>Buy now</small>
+						</div>
+						<h4>$33.78</h4>
+					</li>
+					<li data-category="" data-price="">
+						<picture>
+							<img src="../images/shoes4.png" alt="">
+						</picture>
+						<div class="detail">
+							<p class="icon">
+								<span><i class="far fa-heart"></i></span>
+								<span><i class="far fa-share-square"></i></span>
+								<span><i class="fas fa-shopping-basket"></i></span>
+							</p>
+							<strong>Shoes</strong>
+							<span>Lorem, ipsum dolor sit amet consectetur.</span>
+							<small>Buy now</small>
+						</div>
+						<h4>$44.78</h4>
+					</li>
+				</ul>
+			</div>
+			<div class="cointainer">
+				<div class="box">
+					<div class="heading">
+						<h2>Aconcagua Expedition</h2>
+						<h4 id="price">Price: $5800*</h4>
 					</div>
-					<h4>$45.78</h4>
-				</li>
-				<li data-category=" " data-price=" ">
-					<picture>
-						<img src="../images/product-2.jpg" alt="">
-					</picture>
-					<div class="detail">
-						<p class="icon">
-						   <span><i class="far fa-heart"></i></span>
-						   <span><i class="far fa-share-square"></i></span>
-						   <span><i class="fas fa-shopping-basket"></i></span>
-						</p>
-						<strong>Blazer</strong>
-						<span>Lorem, ipsum dolor sit amet consectetur.</span>
-						<small>Buy now</small>
+					<img src="../images/tour/tour.jpg" alt="" width="100%" height="300px">
+					<div class="text">
+						<p id="para">This leadership & guide training course ventures into the central Andes to attempt
+							a summit of Aconcagua. This comprehensive expedition course focuses on teaching students to
+							be safe, efficient, knowledgeable and confident outdoor leaders in a high altitude mountain
+							environment.</p>
+						<a href="product-tour-detaill.html">Read more</a>
 					</div>
-					<h4>$35.78</h4>
-				</li>
-				<li data-category="" data-price="">
-					<picture>
-						<img src="../images/product-3.jpg" alt="">
-					</picture>
-					<div class="detail">
-						<p class="icon">
-						   <span><i class="far fa-heart"></i></span>
-						   <span><i class="far fa-share-square"></i></span>
-						   <span><i class="fas fa-shopping-basket"></i></span>
-						</p>
-						<strong>Watch</strong>
-						<span>Lorem, ipsum dolor sit amet consectetur.</span>
-						<small>Buy now</small>
+				</div>
+
+
+				<div class="box">
+					<div class="heading">
+						<h2>Alaska Mountaineering</h2>
+						<h4 id="price">Price: $2500*</h4>
 					</div>
-					<h4>$40.78</h4>
-				</li>
-				<li data-category="" data-price="">
-					<picture>
-						<img src="../images/product-4.jpg" alt="">
-					</picture>
-					<div class="detail">
-						<p class="icon">
-						   <span><i class="far fa-heart"></i></span>
-						   <span><i class="far fa-share-square"></i></span>
-						   <span><i class="fas fa-shopping-basket"></i></span>
-						</p>
-						<strong>Blazer</strong>
-						<span>Lorem, ipsum dolor sit amet consectetur.</span>
-						<small>Buy now</small>
+					<img src="../images/tour/tour2.jpg" alt="" width="100%" height="300px">
+
+					<div class="text">
+						<p id="para">On this guide training course, students will learn technical snow, rock and ice
+							skills to lead in the glaciated peaks of Alaska. Learn to lead a group through a crevassed
+							icefall, ascend rocky ridges where the clouds fall beneath your feet and dig a snow pit
+							profile to assess the avalanche danger.</p>
+						<a href="product-tour-detaill.html">Read more</a>
 					</div>
-					<h4>$42.78</h4>
-				</li>
-				<li data-category="" data-price="">
-					<picture>
-						<img src="../images/product-5.jpg" alt="">
-					</picture>
-					<div class="detail">
-						<p class="icon">
-						   <span><i class="far fa-heart"></i></span>
-						   <span><i class="far fa-share-square"></i></span>
-						   <span><i class="fas fa-shopping-basket"></i></span>
-						</p>
-						<strong>Watch</strong>
-						<span>Lorem, ipsum dolor sit amet consectetur.</span>
-						<small>Buy now</small>
+				</div>
+
+
+				<div class="box">
+					<div class="heading">
+						<h2>Utah/Nevada Mountaineering</h2>
+						<h4 id="price">Price: $3125*</h4>
 					</div>
-					<h4>$46.78</h4>
-				</li>
-				<li data-category="" data-price="">
-					<picture>
-						<img src="../images/product-6.jpg" alt="">
-					</picture>
-					<div class="detail">
-						<p class="icon">
-						   <span><i class="far fa-heart"></i></span>
-						   <span><i class="far fa-share-square"></i></span>
-						   <span><i class="fas fa-shopping-basket"></i></span>
-						</p>
-						<strong>Blazer</strong>
-						<span>Lorem, ipsum dolor sit amet consectetur.</span>
-						<small>Buy now</small>
+					<img src="../images/tour/tour3.jpg" alt="" width="100%" height="300px">
+
+					<div class="text">
+						<p id="para">Climb over 13,000' in Great Basin National Park. This seldom visited park is ideal
+							to learn mountaineering and expedition skills in a remote wilderness environment. Avalanche
+							assessments, winter camping techniques, and high altitude experience are core parts of the
+							curriculum on this 12 day course.</p>
+						<a href="product-tour-detaill.html">Read more</a>
 					</div>
-					<h4>$55.78</h4>
-				</li>
-				<li data-category="" data-price="">
-					<picture>
-						<img src="../images/product-7.jpg" alt="">
-					</picture>
-					<div class="detail">
-						<p class="icon">
-						   <span><i class="far fa-heart"></i></span>
-						   <span><i class="far fa-share-square"></i></span>
-						   <span><i class="fas fa-shopping-basket"></i></span>
-						</p>
-						<strong>Shoes</strong>
-						<span>Lorem, ipsum dolor sit amet consectetur.</span>
-						<small>Buy now</small>
+				</div>
+
+
+				<div class="box">
+					<div class="heading">
+						<h2>Nepal Mountaineering</h2>
+						<h4 id="price">Price: $8250*</h4>
 					</div>
-					<h4>$25.78</h4>
-				</li>
-				<li data-category="" data-price="">
-					<picture>
-						<img src="../images/product-8.jpg" alt="">
-					</picture>
-					<div class="detail">
-						<p class="icon">
-						   <span><i class="far fa-heart"></i></span>
-						   <span><i class="far fa-share-square"></i></span>
-						   <span><i class="fas fa-shopping-basket"></i></span>
-						</p>
-						<strong>Mobile</strong>
-						<span>Lorem, ipsum dolor sit amet consectetur.</span>
-						<small>Buy now</small>
+					<img src="../images/tour/tour4.jpg" alt="" width="100%" height="300px">
+
+					<div class="text">
+						<p id="para">The peaks of Lobuche, Imja Tse, and Mera offer a world class mountaineering
+							classroom for students on an IWLS Nepal Mountaineering Course. You’ll set fixed lines, learn
+							about high altitude medicine, and attempt to summit these incredible mountains.</p>
+						<a href="product-tour-detaill.html">Read more</a>
 					</div>
-					<h4>$20.78</h4>
-				</li>
-				<li data-category="" data-price="">
-					<picture>
-						<img src="../images/product-9.jpg" alt="">
-					</picture>
-					<div class="detail">
-						<p class="icon">
-						   <span><i class="far fa-heart"></i></span>
-						   <span><i class="far fa-share-square"></i></span>
-						   <span><i class="fas fa-shopping-basket"></i></span>
-						</p>
-						<strong>Shoes</strong>
-						<span>Lorem, ipsum dolor sit amet consectetur.</span>
-						<small>Buy now</small>
+				</div>
+				<div class="box">
+					<div class="heading">
+						<h2>Ecuador Mountaineering</h2>
+						<h4 id="price">Price: $7130*</h4>
 					</div>
-					<h4>$15.78</h4>
-				</li>
-				<li data-category="" data-price="">
-					<picture>
-						<img src="../images/product-10.jpg" alt="">
-					</picture>
-					<div class="detail">
-						<p class="icon">
-						   <span><i class="far fa-heart"></i></span>
-						   <span><i class="far fa-share-square"></i></span>
-						   <span><i class="fas fa-shopping-basket"></i></span>
+					<img src="../images/tour/tour5.jpg" alt="" width="100%" height="300px">
+
+					<div class="text">
+						<p id="para">Hone technical skills and develop high altitude leadership experience on the high
+							Andean Volcanoes of Cotopaxi and Chimborazo. From the vibrant metropolis of Quito, to the
+							cloud forests of Banos, and to the soaring altitude of glaciated volcanoes, this 24 day
+							course offers ideal high altitude international guide training.
+
 						</p>
-						<strong>Shoes</strong>
-						<span>Lorem, ipsum dolor sit amet consectetur.</span>
-						<small>Buy now</small>
+						<a href="product-tour-detaill.html">Read more</a>
 					</div>
-					<h4>$22.78</h4>
-				</li>
-				<li data-category="" data-price="">
-					<picture>
-						<img src="../images/product-11.jpg" alt="">
-					</picture>
-					<div class="detail">
-						<p class="icon">
-						   <span><i class="far fa-heart"></i></span>
-						   <span><i class="far fa-share-square"></i></span>
-						   <span><i class="fas fa-shopping-basket"></i></span>
-						</p>
-						<strong>Mobile</strong>
-						<span>Lorem, ipsum dolor sit amet consectetur.</span>
-						<small>Buy now</small>
+				</div>
+				<div class="box">
+					<div class="heading">
+						<h2>Argentina Mountaineering</h2>
+						<h4 id="price">Price: $4800*
+						</h4>
 					</div>
-					<h4>$33.78</h4>
-				</li>
-				<li data-category="" data-price="">
-					<picture>
-						<img src="../images/product-12.jpg" alt="">
-					</picture>
-					<div class="detail">
-						<p class="icon">
-						   <span><i class="far fa-heart"></i></span>
-						   <span><i class="far fa-share-square"></i></span>
-						   <span><i class="fas fa-shopping-basket"></i></span>
-						</p>
-						<strong>Shoes</strong>
-						<span>Lorem, ipsum dolor sit amet consectetur.</span>
-						<small>Buy now</small>
+					<img src="../images/tour/tour6.jpg" alt="" width="100%" height="300px">
+
+					<div class="text">
+						<p id="para">This 20 day mountaineering leadership and guide training program ventures into a
+							remote area of the central Andes. Students learn technical climbing and expedition skills
+							while pursuing objectives and summits over 15,000'. This course blends solid technical
+							training with high altitude medicine and awareness.</p>
+						<a href="product-tour-detaill.html">Read more</a>
 					</div>
-					<h4>$44.78</h4>
-				</li>
-			</ul>
+				</div>
+
+			</div>
+		</div>
 		</div>
 	</main>
 
-  <script>
-    (function() {
-		
-		let field = document.querySelector('.items');
-		let li = Array.from(field.children);
+	<script>
+		(function () {
 
-		function FilterProduct() {
-			for(let i of li){
-				const name = i.querySelector('strong');
-				const x = name.textContent;
-				i.setAttribute("data-category", x);
-			}
+			let field = document.querySelector('.items');
+			let li = Array.from(field.children);
 
-			let indicator = document.querySelector('.indicator').children;
+			function FilterProduct() {
+				for (let i of li) {
+					const name = i.querySelector('strong');
+					const x = name.textContent;
+					i.setAttribute("data-category", x);
+				}
 
-			this.run = function() {
-				for(let i=0; i<indicator.length; i++)
-				{
-					indicator[i].onclick = function () {
-						for(let x=0; x<indicator.length; x++)
-						{
-							indicator[x].classList.remove('active');
-						}
-						this.classList.add('active');
-						const displayItems = this.getAttribute('data-filter');
+				let indicator = document.querySelector('.indicator').children;
 
-						for(let z=0; z<li.length; z++)
-						{
-							li[z].style.transform = "scale(0)";
-							setTimeout(()=>{
-								li[z].style.display = "none";
-							}, 500);
+				this.run = function () {
+					for (let i = 0; i < indicator.length; i++) {
+						indicator[i].onclick = function () {
+							for (let x = 0; x < indicator.length; x++) {
+								indicator[x].classList.remove('active');
+							}
+							this.classList.add('active');
+							const displayItems = this.getAttribute('data-filter');
 
-							if ((li[z].getAttribute('data-category') == displayItems) || displayItems == "all")
-							 {
-							 	li[z].style.transform = "scale(1)";
-							 	setTimeout(()=>{
-									li[z].style.display = "block";
+							for (let z = 0; z < li.length; z++) {
+								li[z].style.transform = "scale(0)";
+								setTimeout(() => {
+									li[z].style.display = "none";
 								}, 500);
-							 }
-						}
-					};
-				}
-			}
-		}
 
-		function SortProduct() {
-			let select = document.getElementById('select');
-			let ar = [];
-			for(let i of li){
-				const last = i.lastElementChild;
-				const x = last.textContent.trim();
-				const y = Number(x.substring(1));
-				i.setAttribute("data-price", y);
-				ar.push(i);
-			}
-			this.run = ()=>{
-				addevent();
-			}
-			function addevent(){
-				select.onchange = sortingValue;
-			}
-			function sortingValue(){
-			
-				if (this.value === 'Default') {
-					while (field.firstChild) {field.removeChild(field.firstChild);}
-					field.append(...ar);	
-				}
-				if (this.value === 'LowToHigh') {
-					SortElem(field, li, true)
-				}
-				if (this.value === 'HighToLow') {
-					SortElem(field, li, false)
+								if ((li[z].getAttribute('data-category') == displayItems) || displayItems == "all") {
+									li[z].style.transform = "scale(1)";
+									setTimeout(() => {
+										li[z].style.display = "block";
+									}, 500);
+								}
+							}
+						};
+					}
 				}
 			}
-			function SortElem(field,li, asc){
-				let  dm, sortli;
-				dm = asc ? 1 : -1;
-				sortli = li.sort((a, b)=>{
-					const ax = a.getAttribute('data-price');
-					const bx = b.getAttribute('data-price');
-					return ax > bx ? (1*dm) : (-1*dm);
-				});
-				 while (field.firstChild) {field.removeChild(field.firstChild);}
-				 field.append(...sortli);	
-			}
-		}
 
-		new FilterProduct().run();
-		new SortProduct().run();
-	})();
-  </script>
+			function SortProduct() {
+				let select = document.getElementById('select');
+				let ar = [];
+				for (let i of li) {
+					const last = i.lastElementChild;
+					const x = last.textContent.trim();
+					const y = Number(x.substring(1));
+					i.setAttribute("data-price", y);
+					ar.push(i);
+				}
+				this.run = () => {
+					addevent();
+				}
+				function addevent() {
+					select.onchange = sortingValue;
+				}
+				function sortingValue() {
+
+					if (this.value === 'Default') {
+						while (field.firstChild) { field.removeChild(field.firstChild); }
+						field.append(...ar);
+					}
+					if (this.value === 'LowToHigh') {
+						SortElem(field, li, true)
+					}
+					if (this.value === 'HighToLow') {
+						SortElem(field, li, false)
+					}
+				}
+				function SortElem(field, li, asc) {
+					let dm, sortli;
+					dm = asc ? 1 : -1;
+					sortli = li.sort((a, b) => {
+						const ax = a.getAttribute('data-price');
+						const bx = b.getAttribute('data-price');
+						return ax > bx ? (1 * dm) : (-1 * dm);
+					});
+					while (field.firstChild) { field.removeChild(field.firstChild); }
+					field.append(...sortli);
+				}
+			}
+
+			new FilterProduct().run();
+			new SortProduct().run();
+		})();
+	</script>
 </body>
+
 </html>
