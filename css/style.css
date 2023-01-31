@@ -121,10 +121,9 @@ header .navigation .navigation-items a:hover:before{
 
 #home .content.active{
     display: block;
-    
 }
 
-#home .content .title{
+#home .content h1{
     font-size: 4em;
     font-weight: 900;
     text-transform: uppercase;
@@ -134,7 +133,7 @@ header .navigation .navigation-items a:hover:before{
 }
 
 #home .content h1 span{
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: 600;
 }
 

@@ -1,0 +1,59 @@
+{
+    "products":
+    [
+        {
+            "type": "Knapsack",
+            "price": "$199.95",
+            "name": "CREEK 35 PACK",
+            "img": "../images/products/bag_4.jpg"
+        },
+        {
+            "type": "Knapsack",
+            "price": "$899.95",
+            "name": "Black Diamond JetForce UL 26 Avalanche Airbag Pack",
+            "img": "../images/products/bag_6.jpg"
+        },
+        {
+            "type": "Knapsack",
+            "price": "$199.95",
+            "name": "Dawn Patrol 32 Snow Pack - Eric Jackson Edition",
+            "img": "../images/products/bag_5.jpg"
+        },
+        {
+            "type": "Knapsack",
+            "price": "$175.00",
+            "name": "Soelden 32 Snow Pack - Men's",
+            "img": "../images/products/bag_8.jpg"
+        },
+        {
+            "type": "Knapsack",
+            "price": "$1,499.95",
+            "name": "black crows Dorsa 20 Pack",
+            "img": "../images/products/bag_7.jpg"
+        },
+        {
+            "type": "Knapsack",
+            "price": "$720.00",
+            "name": "Ascent 28 S AVABAG Avalanche Airbag Pack - Women's",
+            "img": "../images/products/bag_2.jpg"
+        },
+        {
+            "type": "Chalk",
+            "price": "$25.00",
+            "name": "FrictionLabs Gorilla Grip Chunky Chalk",
+            "img": "../images/products/chalk_1.jpg"
+        },
+        {
+            "type": "Helmet",
+            "price": "$59.95",
+            "name": "Black Diamond Half Dome Helmet",
+            "img": "../images/products/helmet_1.jpg"
+        },
+        {
+            "type": "Helmet",
+            "price": "$69.95",
+            "name": "Capitan Climbing Helmet",
+            "img": "../images/products/helmet_2.jpg"
+        }
+    ]
+}
