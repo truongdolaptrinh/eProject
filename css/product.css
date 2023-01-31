@@ -1,0 +1,320 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100;1,300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root {
+	--gra: linear-gradient(45deg, cyan, royalblue);
+}
+
+header{
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 200px;
+    transition: 0.5 ease;
+	background: #fff;
+}
+
+header .brand {
+    color: rgb(29, 8, 8);
+    font-size: 1.5em;
+    font-weight: 700;
+    /* text-transform: uppercase; */
+    text-decoration: none;
+}
+
+header .navigation {
+    position: relative;
+}
+
+header .navigation .navigation-items a{
+    position: relative;
+    color: rgb(28, 15, 15);
+    font-size: 1em;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 30px;
+    transition: 0.3s ease;
+}
+
+header .navigation .navigation-items a:before{
+    content: '';
+    position: absolute;
+    background: rgb(15, 6, 6);
+    width: 0;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease;
+}
+
+header .navigation .navigation-items a:hover:before{
+    width: 100%;
+}
+
+.home{
+	position: relative;
+	width: 100%;
+	min-height: 50vh;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.home:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.home img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.home .content{
+	position: absolute;
+	color: #99cf1b;
+	width: 100%;
+    margin-top: 50px;
+	margin-left: 10%;
+}
+
+.home .content h1{
+	margin-left: 10%;
+    font-size: 4em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+	font-family: 'Merriweather', serif;
+    line-height: 75px;
+}
+
+.home .content .typing{
+	font-family: 'Merriweather', serif;
+    font-size: 3.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+	margin-left: 20%;
+	overflow: hidden;
+	white-space: nowrap;
+	animation: typing 2s steps(20) infinite alternate,
+				blink 1s infinite;
+}
+
+@keyframes typing {
+	0% {
+		width: 0%;
+		visibility: hidden;
+	}
+	100% {
+		width: 100%;
+	}
+}
+
+@keyframes blink {
+	50% {
+		border-color: transparent;
+	}
+	100% {
+		border-color: black;
+	}
+}
+
+
+.main {
+	width: 90%;
+	background: white;
+	margin: 60px auto;
+	font-family: sans-serif;
+}
+
+.menu {
+	width: 100%;
+	height: 100px;
+	border-bottom: 2px solid #e5e5e5;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.menu ul li {
+	list-style: none;
+	padding: 20px;
+	margin: 10px;
+	float: left;
+	font-size: 20px;
+	border-radius: 35px;
+	/*background: red;*/
+
+}
+
+.menu ul li a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.menu ul li.active {
+	background: var(--gra);
+}
+
+.menu ul li.active a {
+	color: white;
+	font-weight: bold;
+}
+
+.filter-condition {
+	padding: 20px;
+	height: 100px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.filter-condition select {
+	width: 120px;
+	padding: 0 0 0 10px;
+	border: none;
+	outline: none;
+	font-weight: bold;
+	color: purple;
+	background: transparent;
+	cursor: pointer;
+}
+
+.product-field{
+	padding: 40px 20px;
+}
+
+.items{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.card_container{
+	width: 380px;
+	height: 400px;
+	transition: 0.5 all;
+	background: whitesmoke;
+	border-radius: 20px;
+	padding: 10px;
+	margin: 200px 10px 0 10px;
+	position: relative;
+	margin-bottom: 40px;
+}
+
+picture{
+	background: #eee;
+	padding: 5px;
+	position: absolute;
+	right: 0;
+	bottom: 41%;
+	width: 75%;
+	height: 85%;
+	border-radius: 50px 20px 0 20px;
+	transform: skewY(40deg);
+	overflow: hidden;
+	box-shadow: 0 1px 0 #00000020, -1px 0 0 #ccc;
+}
+
+picture img{
+	width: 95%;
+	z-index: 1;
+	transform: skewY(-40deg);
+	padding: 25px 0 0 0;
+}
+
+.detail{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.title{
+	bottom: 0;
+	left: 0;
+	position: absolute;
+}
+
+.title span{
+	background: #00000030;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 50%;
+	text-align: center;
+	padding: 0;
+	margin-left: 20px;
+	font-size: 18px;
+	color: white;
+}
+
+.title span:hover{
+	background: var(--gra);
+	cursor: pointer;
+}
+
+.title>strong{
+	display: inherit;
+	margin: 20px;
+	font-size: 25px;
+	letter-spacing: 2px;
+	color: #555;
+}
+
+.title>p{
+	display: inherit;
+	padding: 0 20px;
+	width: 90%;
+}
+
+
+
+.title small{
+	display: inline-block;
+	padding: 8px 20px;
+	margin: 15px;
+	text-align: center;
+	align-items: center;
+	font-weight: bold;
+	border-radius: 6px;
+	border: 1px solid #999;
+	cursor: pointer;
+	font-size: 16px;
+	background: #1e3deee2;
+}
+
+.buy_explore{
+	display: flex;
+	justify-content: space-between;
+}
+
+.title small:hover{
+	background: var(--gra);
+	color: white;
+	border-color: cyan;
+}
+
+.card_container h4{
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	font-size: 25px;
+	color: rgb(7, 125, 19);
+	text-shadow: 1px 1px 2px black;
+}

@@ -1,0 +1,176 @@
+{
+    "moutain" : 
+    [
+{
+ "ID" : "1" ,
+ "Name" : "Mount Fuji",
+ "Height" : "3,776 meters (12,388 feet)",
+ "Location" : " Japan",
+ "History" : "Mount Fuji is the highest mountain in Japan and is located on the island of Honshū and it’s the second-highest volcano in Asia. It’s an active composite volcano and erupted for the last time in 1707 and 1708."
+ },
+
+ {
+    "ID" : "2" ,
+    "Name" : "Mont Blanc",
+    "Height" : "4,808 meters (15,774 feet)",
+    "Location" : "France",
+    "History" : "Mont Blanc literally translates to the “White Mountain” and is the tallest mountain in Western Europe. It’s located in the Alps mountain range and the Mont Blanc Massif is a popular tourist destination, known for outdoor activities like hiking, climbing, trail running, and winter sports like skiing, and snowboarding."
+ },
+
+ {
+    "ID" : "3" ,
+    "Name" : "Kilimanjaro",
+    "Height" : "5,895 meters (19,341 feet)",
+    "Location" : "Tanzania",
+    "History" : "Mount Kilimanjaro is a dormant volcano located in Tanzania in the east of Africa. It consists of three volcanic cones named Kibo, Mawenzi, and Shira. It’s the highest mountain in Africa and the highest single-standing mountain in the world, reaching a height of 4,900 meters (16,100 feet) above the plateau it stands on."
+ },
+
+ {
+    "ID" : "4" ,
+    "Name" : "K2",
+    "Height" : "8,611 meters (28,251 feet)",
+    "Location" : "China, Pakistan, also claimed by India",
+    "History" : "The K2 Mountain is the second-highest mountain in the world and is located on the border of China and Pakistan. Its nickname is the “Savage Mountain” as it was called that way by an American climber in 1953. He added that it’s a mountain “that tries to kill you.” It holds the sad record of being the deadliest of the highest mountains in the world, killing 1 person for every 4 that reach the summit."
+ },
+ {
+    "ID" : "5" ,
+    "Name" : "Mount Kenya",
+    "Height" : "5,199 meters (17,057 feet)",
+    "Location" : "Kenya",
+    "History" : "Mount Kenya is the highest mountain in Kenya and the second-highest mountain in Africa and is located about 150 kilometers (90 miles) to the north-northeast of the capital Nairobi. Mount Kenya is a composite volcano and is the source of the name of the Republic of Kenya."
+ },
+ {
+    "ID" : "6" ,
+    "Name" : "Mount Elbrus",
+    "Height" : "5,642 meters (18,510 feet)",
+    "Location" : "Russia",
+    "History" : "Mount Elbrus is a dormant volcano located in the Caucasus mountain range in southern Russia. It is the highest mountain in Europe and consists of two peaks which both are dormant volcano domes."
+ },
+ {
+    "ID" : "7" ,
+    "Name" : "Eiger",
+    "Height" : "3,967 meters (13,015 feet)",
+    "Location" : "Switzerland",
+    "History" : "The Eiger is one of the most prominent peaks of the Swiss Alps and overlooks the villages of Grindelwald and Lauterbrunnen. The summit of the mountain can only be reached by experienced climbers and a railway tunnel runs through the mountain to bring tourists to a location that offers amazing views."
+ },
+ {
+    "ID" : "8" ,
+    "Name" : "Mount Logan",
+    "Height" : "5,959 meters (19,551 feet)",
+    "Location" : "Canada",
+    "History" : "Mount Logan is a mountain in Canada located within Kluane National Park Reserve and is the second-highest peak in northern Canada. It was named after William Edmond Logan, a Canadian geologist and founder of the Geological Survey of Canada. It’s still rising in height because of tectonic activity."
+ },
+ {
+    "ID" : "9" ,
+    "Name" : "Mount Kailash",
+    "Height" : "6,638 meters (21,778 feet)",
+    "Location" : "China",
+    "History" : "Mount Kailash is located in the Kailash Range and is the highest peak in it. It’s part of the Trans-Himalaya in the Ngari Prefecture, Tibet Autonomous Region, China. It’s located next to some of the most important lakes in the world, Lake Manasarovar and Lake Rakshastal, which are the source of the Indus, Sutlej, Brahmaputra, and Karnali, a tributary of the Ganges in India."
+ },
+ {
+    "ID" : "10" ,
+    "Name" : "Chimborazo",
+    "Height" : "6,263 meters (20,548 feet)",
+    "Location" : "Ecuador",
+    "History" : " Chimborazo is an inactive volcano located in the Cordillera Occidental range of the Andes Mountains. The mountain’s summit is the farthest point on the Earth’s surface from the Earth’s center, which technically makes it the highest point on the entire planet. "
+ },
+ {
+    "ID" : "11" ,
+    "Name" : "Pico de Orizaba",
+    "Height" : "5,636 meters (18,491 feet)",
+    "Location" : "Mexico",
+    "History" : "The Pico de Orizaba is another composite volcano and the highest mountain in Mexico. It’s also the third-highest mountain in North America. The volcano is dormant at the moment but there’s still a possibility of it erupting, something which happened for the last time in the 19th century."
+ },
+ {
+    "ID" : "12" ,
+    "Name" : "Mount Everest",
+    "Height" : "8,848 meters (29,029 feet)",
+    "Location" : "Nepal, China",
+    "History" : "Mount Everest is located on the border of China and Nepal and is the highest mountain peak in the world. It’s named after Sir Georges Everest, a British surveyor, and Geographer. It’s a popular mountain to climb for experienced climbers, even though it’s considered to be easier than some other high peaks."
+ },
+ {
+    "ID" : "13" ,
+    "Name" : "Mount Ararat",
+    "Height" : "Height: ",
+    "Location" : "Turkey",
+    "History" : "Mount Ararat is a dormant compound volcano located in the east of Turkey. it has a little brother and both mountains are referred to as the Greater Ararat and the Little Ararat. The mountain is described in the Bible as the resting place of Noah’s Ark. It’s considered to be a sacred mountain in Armenia. It overlooks its capital, Yerevan."
+ },
+
+ {
+    "ID" : "14" ,
+    "Name" : "Mount Kosciuszko",
+    "Height" : "2,228 meters (7,310 feet)",
+    "Location" : " Australia",
+    "History" : "Mount Kosciuszko is the highest mountain in mainland Australia and is located on the Main Range of the Snowy Mountains in Kosciuszko National Park in New South Wales in the east of Australia. It was named after Polish-Lithuanian freedom fighter General Tadeusz Kościuszko because the mountain resembles the Kościuszko Mound in Kraków, Poland."
+ },
+
+ {
+    "ID" : "15" ,
+    "Name" : "Ben Nevis",
+    "Height" : "1,345 meters (4,413 feet)",
+    "Location" : "Scotland",
+    "History" : "Ben Nevis is the highest mountain in the British Isles and is located in the Shire of Inverness, a historical county in Scotland. The summit of the mountain is the symbol of the Scottish Highlands and the area is a popular tourist destination with an estimated 100,000 visitors each year."
+ },
+
+ {
+    "ID" : "16" ,
+    "Name" : "Mount Rainier",
+    "Height" : "4,392 meters (14,411 feet)",
+    "Location" : "United States",
+    "History" : "Mount Rainier is an active composite volcano located 59 miles (95 km) south-southeast of Seattle on the West Coast of the United States. It’s located in the Cascade Mountain Range and is the highest peak in the state of Washington. It’s considered to be the most dangerous volcano in the world and is a constant risk for about 80,000 people living in the area."
+ },
+ {
+    "ID" : "17" ,
+    "Name" : "Mauna Kea",
+    "Height" : "4,207.3 meters (13,803 feet)",
+    "Location" : "Hawaii, United States",
+    "History" : "Mauna Kea is a dormant volcano and the tallest peak in the state of Hawaii. Most of the volcano is actually located underwater and if the mountain is measured from its underwater base, it’s actually the tallest mountain in the world at a height of 10,200 meters (33,500 feet)."
+ },
+ {
+    "ID" : "18" ,
+    "Name" : "Mount Cook",
+    "Height" : "3,724 meters (12,218 feet)",
+    "Location" : "New Zeland",
+    "History" : "Mount Cook is also known as “Aoraki” and is the highest mountain in New Zealand, located in the Southern Alps mountain range of the country, located on the South Island. It consists of 3 summits and is a popular destination for experienced climbers."
+ },
+
+ {
+    "ID" : "19" ,
+    "Name" : "Mount Olympus",
+    "Height" : "2,917 meters (9,570 feet)",
+    "Location" : "Greece",
+    "History" : "Mount Olympus is the highest mountain in Greece and is located in the Olympus Range on the border between Thessaly and Macedonia. The mountain is famous as it was a prominent feature of Greek Mythology, more specifically the home of the Greek gods, who lived on Mytikas peak."
+ },
+
+ {
+    "ID" : "20" ,
+    "Name" : "Matterhorn",
+    "Height" : "4,478 meters (14,692 feet)",
+    "Location" : "Switzerland, Italy",
+    "History" : "The Matterhorn is located on the border of Switzerland and Italy and is one of the highest mountains of the Alps mountain range. It consists of 4 steep faces that are aligned with the four compass points. It’s one of the most dangerous mountains to climb in Europe as hundreds of people have died trying to reach the summit."
+ },
+
+ {
+    "ID" : "21" ,
+    "Name" : "Aconcagua",
+    "Height" : "6,960.8 meters (22,837 feet)",
+    "Location" : "Argentina",
+    "History" : "Aconcagua is a mountain located in the Principal Cordillera of the Andes mountain range. It’s both the highest peak in the Americas and the highest peak outside of Asia. This makes it one of the “Seven Summits” of the seven continents, a reference to the highest peaks on each continent."
+ },
+ {
+    "ID" : "22" ,
+    "Name" : "Kanchenjunga",
+    "Height" : "8,586 meters (28,169 feet)",
+    "Location" : "Nepal, India",
+    "History" : "The Kangchenjunga is the third-highest mountain in the world and is located on the border of Nepal and India in a part of the Himalayas called “Kangchenjunga Himal.” Remarkably, until 1852 its summit was assumed to be the highest mountain in the world. No climber has ever reached the summit in honor of a promise given to the Chogyal, the former monarchs in the region."
+ },
+ {
+    "ID" : "23" ,
+    "Name" : "Denali",
+    "Height" : "6,190 meters (20,310 feet)",
+    "Location" : "United States",
+    "History" : "The Denali, of which its former official name was “Mount McKinley,” is the highest mountain in North America. It’s located in the Alaska Range, a mountain range in the interior of the U.S. State of Alaska. It is the centerpiece of the Denali National Park and Preserves."
+ }
+ 
+    ]
+}

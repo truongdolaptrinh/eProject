@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <script src="../../angular.min.js"></script>
+	<link rel="stylesheet" href="../../css/product.css">
+</head>
+<body >
+	<header>
+        <a href="#" class="brand">Travel</a>
+        <div class="menu-btn"></div>
+        <div class="navigation">
+            <div class="navigation-items">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="product_card.html">Product</a>
+                <a href="#">Gallery</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+    </header>
+
+	<section class="home">
+		<img src="../../images/products/img_product.jpg" alt="">
+		<div class="content">
+			<h1>welcome</h1> 
+			<div class="typing">
+				to the store
+			</div>
+		</div>
+	</section>
+
+	<section class="main">
+		<div class="menu">
+			<ul class="indicator">
+				<li data-filter="all" class="active"><a href="#">All</a></li>
+				<li data-filter="Helmet"><a href="#">Helmet</a></li>
+				<li data-filter="Knapsack"><a href="#">Knapsack</a></li>
+				<li data-filter="Shoes"><a href="#">Shoes</a></li>
+				<li data-filter="Chalk"><a href="#">Chalk</a></li>
+			</ul>
+			<div class="filter-condition">
+				<span>View As a</span>
+				<select name="" id="select">
+					<option value="Default">Default</option>
+					<option value="LowToHigh">Low to high</option>
+					<option value="HighToLow">High to low</option>
+				</select>
+			</div>
+		</div>
+		<div class="product-field">
+			<div class="items" ng-view ng-controller="myController" ng-app="myApp">
+				<div ng-repeat="x in myData" class="card_container" data-category="" data-price="">
+					<picture>
+						<img src="{{x.img}}" alt="">
+					</picture>
+					<div class="detail">
+						<div class="title">
+							<span><i class="fas fa-shopping-cart"></i></span>
+							<strong>{{x.type}}</strong>
+							<p>{{x.name}}</p>
+							<div class="buy_explore">
+								<small>Buy</small>
+								<small class="explore">Explore</small>
+							</div>
+						</div>
+					</div>
+					<h4>{{x.price}}</h4>
+				</div>
+			</div>
+		</div>
+	</section>
+    <script>
+        var app = angular.module("myApp", []);
+        app.controller("myController", function($scope, $http) {
+            $http.get("../../json/products.json").then(function(response) {
+                $scope.myData = response.data.products;
+                $scope.obj = {};
+            })
+        })
+    </script>
+	<script src="../../javascrip/product.js"></script>
+</body>
+</html>
