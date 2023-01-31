@@ -405,10 +405,15 @@
 .custom-select {
     position: relative;
     font-family: Arial;
+    width: 150px;
+    border: 1px solid ;
+    border-radius: 5px black;
+    margin-bottom: 10px;
   }
   
   .custom-select select {
-    display: none; /*hide original SELECT element: */
+    display: none;
+    /*hide original SELECT element: */
   }
   
   .select-selected {
@@ -439,7 +444,7 @@
     color: #090101;
     padding: 8px 16px;
     border: 2px solid transparent;
-    /* border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent; */
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
     cursor: pointer;
   }
   
