@@ -56,7 +56,7 @@
 			<div class="items" ng-view ng-controller="myController" ng-app="myApp">
 				<div ng-repeat="x in myData" class="card_container" data-category="" data-price="">
 					<picture>
-						<img src= "{{x.image}}" alt="">
+						<img src="{{x.img}}" alt="">
 					</picture>
 					<div class="detail">
 						<div class="title">
@@ -65,7 +65,7 @@
 							<p>{{x.name}}</p>
 							<div class="buy_explore">
 								<small>Buy</small>
-								<small>Explore</small>
+								<small class="explore">Explore</small>
 							</div>
 						</div>
 					</div>

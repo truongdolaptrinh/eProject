@@ -206,7 +206,7 @@ header .navigation .navigation-items a:hover:before{
 }
 
 .card_container{
-	width: 350px;
+	width: 380px;
 	height: 400px;
 	transition: 0.5 all;
 	background: whitesmoke;
@@ -260,7 +260,7 @@ picture img{
 	text-align: center;
 	padding: 0;
 	margin-left: 20px;
-	font-size: 20px;
+	font-size: 18px;
 	color: white;
 }
 
@@ -272,7 +272,7 @@ picture img{
 .title>strong{
 	display: inherit;
 	margin: 20px;
-	font-size: 30px;
+	font-size: 25px;
 	letter-spacing: 2px;
 	color: #555;
 }
@@ -295,7 +295,7 @@ picture img{
 	border-radius: 6px;
 	border: 1px solid #999;
 	cursor: pointer;
-	font-size: 18px;
+	font-size: 16px;
 	background: #1e3deee2;
 }
 
@@ -314,7 +314,7 @@ picture img{
 	position: absolute;
 	right: 10px;
 	top: 50%;
-	font-size: 30px;
+	font-size: 25px;
 	color: rgb(7, 125, 19);
 	text-shadow: 1px 1px 2px black;
 }
