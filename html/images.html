@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .wapper_image{
+            width: 85%;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 80px;
+            justify-content: space-evenly;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+
+        }
+        .image{
+            margin-top: 25px;
+            width: 300px;
+            height: 250px;
+            border-radius: 4px;
+            transition: 0.25s;
+        }
+
+        .image:hover img{
+            transform: scale(1.05);
+        }
+
+        .gallery{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            background: rgb(0, 0, 0, 0.6);
+            display: flex;
+            align-items: center;
+            color: white;
+            opacity: 0;
+            pointer-events: none;
+            transform: scale(0.8);
+            transition: 0.5s;
+        }
+
+        .gallery_inner{
+            width: 70%;
+            height: 70%;
+            margin: auto;
+        }
+
+        .close{
+            position: fixed;
+            top: 15px;
+            right: 25px;
+            font-size: 35px;
+        }
+        
+        .control{
+            font-size: 35px;
+            color: rgba(255, 255, 255, 0.8);
+            position: absolute;
+        }
+        .control.prev{
+            left: 15px;
+        }
+
+        .control.next{
+            right: 15px;
+        }
+        .show{
+            opacity: 1;
+            pointer-events: auto;
+            transform: scale(1);
+        }
+        .hide{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <section class="wapper">
+        <div class="wapper_image">
+            <div class="image">
+                <img src="../images/mountains/Aconcagua.webp" alt="">
+            </div>
+            <div class="image">
+                <img src="../images/mountains/Ben Nevis.webp" alt="">
+            </div>
+            <div class="image">
+                <img src="../images/mountains/Chimborazo.webp" alt="">
+            </div>
+            <div class="image">
+                <img src="../images/mountains/Eiger.webp" alt="">
+            </div>
+            <div class="image">
+                <img src="../images/mountains/K2.webp" alt="">
+            </div>
+        </div>
+        <div class="gallery">
+            <i class="fas fa-times close"></i>
+            <div class="gallery_inner">
+                <img src="../images/mountains/Aconcagua.webp" alt="">
+            </div>
+            <div class="control prev"><i class="fas fa-chevron-left"></i></div>
+            <div class="control next"><i class="fas fa-chevron-right"></i></div>
+        </div>
+    </section>
+
+    <script src="../javascrip/imgPage.js"></script>
+</body>
+</html>
