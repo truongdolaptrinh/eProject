@@ -26,8 +26,6 @@ header{
   width: 100%;
   height: 100%;
   height: 70px;
-  background: #3E8DA8;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   z-index: 1000;
 }
 header .navbar{
@@ -306,82 +304,6 @@ header .navbar .links li:hover .js-sub-menu{
     font-size: 1.3rem;
     font-weight: 500;
 }
-
-/* @media (max-width: 1040px) {
-    header{
-        padding: 12px 20px;
-    }
-
-    .section-p1{
-        padding: 100px 20px;
-    }
-
-    #home .media-icons{
-        right: 15px;
-    }
-
-    header .navigation{
-        display: none;
-    }
-
-    header .navigation.active{
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        top: 0;
-        left: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: rgba(1, 1, 1, 0.5);
-    }
-
-    header .navigation.active .navigation-items{
-        background: #fff;
-        width: 600px;
-        max-width: 600px;
-        margin: 20px;
-        padding: 40px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        border-radius: 5px;
-        box-shadow: 0 5px 25px rgba(1 1 1 / 20%);
-    }
-
-    header .navigation .navigation-items a{
-        color: #222;
-        font-size: 1.2em;
-        margin: 20px;
-    }
-
-    header .navigation .navigation-items a:before{
-        background: #222;
-        height: 5px;
-    }
-
-    .menu-btn{
-        background: white;
-        background: url(../images/icons/menu.png)no-repeat;
-        background-size: 25px;
-        background-position: center;
-        width: 30px;
-        height: 30px;
-        cursor: pointer;
-        transition: 0.3s ease;
-    }
-
-
-    .menu-btn.active{
-        z-index: 999;
-        background: white;
-        background: url(../images/icons/close.png)no-repeat;
-        background-size: 25px;
-        background-position: center;
-        transition: 0.3s ease;
-    }
-} */
-
 @media (max-width:920px) {
     header .navbar{
     max-width: 100%;
@@ -400,9 +322,6 @@ header .navbar .links li:hover .js-sub-menu{
   }
 }
 @media (max-width:800px){
-  header{
-    /* position: relative; */
-  }
   .navbar .bx-menu{
     display: block;
   }

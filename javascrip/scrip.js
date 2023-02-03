@@ -1,12 +1,12 @@
-const menuBtn = document.querySelector(".menu-btn");
-const navigation = document.querySelector(".navigation");
+// const menuBtn = document.querySelector(".menu-btn");
+// const navigation = document.querySelector(".navigation");
 
-let navbar = document.querySelector('header');
+// let navbar = document.querySelector('header');
 
-menuBtn.addEventListener("click", () => {
-    menuBtn.classList.toggle("active");
-    navigation.classList.toggle("active");
-});
+// menuBtn.addEventListener("click", () => {
+//     menuBtn.classList.toggle("active");
+//     navigation.classList.toggle("active");
+// });
 
 window.addEventListener("scroll", function() {
     const header = document.querySelector("header");
@@ -39,27 +39,4 @@ btns.forEach((btn, i) => {
     btn.addEventListener("click", () => {
         sliderNav(i);
     });
-});
-
-var swiper = new Swiper(".mySwiper", {
-slidesPerView: 1,
-spaceBetween: 10,
-navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-},
-breakpoints: {
-    450: {
-    slidesPerView: 2,
-    spaceBetween: 0,
-    },
-    820: {
-    slidesPerView: 1,
-    spaceBetween: 0,
-    },
-    1024: {
-    slidesPerView: 1,
-    spaceBetween:0,
-    },
-},
 });
