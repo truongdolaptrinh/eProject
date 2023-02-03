@@ -308,7 +308,7 @@ header.sticky {
 }
 
 #contact {
-  background: var(--main-color);
+  background: black;
 }
 .main {
   display: flex;
