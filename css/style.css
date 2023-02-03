@@ -442,3 +442,43 @@ header .navigation .navigation-items a:hover:before {
     transition: 0.2s;
   }
 }
+
+
+
+
+/* About us */
+
+.about_us img{
+  float: left;
+}
+.about_us {
+  display: flex;
+  margin-top: 2rem;
+}
+.about{
+  padding-top: 0;
+}
+.about_us div{
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+.all-text{
+  display: flex;
+  flex-wrap: wrap;
+}
+.nut button{
+  text-align: left;
+  font-size: 15px;
+  margin-top: 1rem;
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #131b2b00;
+  color: rgb(0, 0, 0);
+}
+.nut button:hover{
+  background-color: black;
+  color: white;
+  transition: 0.7s;
+}
