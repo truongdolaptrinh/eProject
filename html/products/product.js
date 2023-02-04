@@ -55,14 +55,13 @@ function loadJSON() {
 						<span class="product-category">${product.category}</span>
 						<p class="product-price">$${product.price}</p>
             <button type="button" class="detail-card-btn">
-              <a href="../product_detail/product-card-detail.html">Detail</a>
+              <a href="">Detail</a>
             </button>
 					</div>
 				</div>
       `;
     });
     productList.innerHTML = html;
-    console.log(productList);
   });
   // .catch(error => {
   //   alert(`User live server or local server`);
@@ -89,7 +88,6 @@ function getProductInfo(product) {
   cartItemId++; // increasing id for the cart item list
   addToCartList(productInfo);
   saveProductInStorage(productInfo);
-  console.log(productInfo);
 }
 
 // add the selected product to the cart list

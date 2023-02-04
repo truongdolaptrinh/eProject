@@ -21,7 +21,7 @@ function showGallery(){
     }
 
     galleryImg.src = images[currenIndex].src;
-        gallery.classList.add('show');
+    gallery.classList.add('show');
 }
 
 images.forEach((item, index) => {

@@ -7,10 +7,12 @@
     <title>Document</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
     <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100;1,300&display=swap");
         *{
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
         }
 
         .wapper_image{
@@ -29,11 +31,18 @@
 
         }
         .image{
-            margin-top: 25px;
+            margin-bottom: 50px;
             width: 300px;
             height: 250px;
             border-radius: 4px;
             transition: 0.25s;
+        }
+
+        .image p{
+            text-align: center;
+            font-weight: bold;
+            font-size: 20px;
+            color: #0C0B08BF;
         }
 
         .image:hover img{
@@ -96,18 +105,23 @@
         <div class="wapper_image">
             <div class="image">
                 <img src="../images/mountains/Aconcagua.webp" alt="">
+                <p>Everest</p>
             </div>
             <div class="image">
                 <img src="../images/mountains/Ben Nevis.webp" alt="">
+                <p>K2</p>
             </div>
             <div class="image">
                 <img src="../images/mountains/Chimborazo.webp" alt="">
+                <p>Aconcagua</p>
             </div>
             <div class="image">
                 <img src="../images/mountains/Eiger.webp" alt="">
+                <p>Mukut Parbat</p>
             </div>
             <div class="image">
                 <img src="../images/mountains/K2.webp" alt="">
+                <p>Chogolisa</p>
             </div>
         </div>
         <div class="gallery">
