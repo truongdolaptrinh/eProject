@@ -5,7 +5,35 @@ var close = document.querySelector('.close');
 var galleryImg = document.querySelector('.gallery_inner img');
 var gallery = document.querySelector('.gallery');
 
+const cardImg = document.querySelector('.wapper_image');
+
 var currenIndex = 0;
+
+// eventListeners();
+
+// function eventListeners(){
+//     window.addEventListener('DOMContentLoaded', () => {
+//         loadingJSON();
+//     });
+// }
+
+// function loadingJSON() {
+//     fetch('/json/images.json')
+//     .then(reponse => reponse.json())
+//     .then(data => {
+//         let html = '';
+//         data.forEach(image => {
+//             html += `
+//                 <div class="image">
+//                     <img src="${image.imageSrc}" alt="">
+//                     <p>${image.name}</p>
+//                 </div>
+//             `;
+//         });
+//         cardImg.innerHTML = html;
+//         console.log(cardImg);
+//     });
+// }
 
 function showGallery(){
     if(currenIndex == 0){
@@ -26,7 +54,9 @@ function showGallery(){
 
 images.forEach((item, index) => {
     item.addEventListener('click', function() {
+        // alert('Please select');
         currenIndex = index;
+        
         showGallery();
     });
 });

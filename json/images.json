@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "name": "Everest",
+        "imageSrc": "/javascrip/imageTopMoutain/Aconcagua.webp"
+    },
+    {
+        "id": "2",
+        "name": "K2",
+        "imageSrc": "/javascrip/imageTopMoutain/Chimborazo.webp"
+    },
+    {
+        "id": "3",
+        "name": "Phú Sỹ",
+        "imageSrc": "/javascrip/imageTopMoutain/Denali.webp"
+    },
+    {
+        "id": "4",
+        "name": "Everest",
+        "imageSrc": "/javascrip/imageTopMoutain/Eiger.webp"
+    },
+    {
+        "id": "5",
+        "name": "Everest",
+        "imageSrc": "/javascrip/imageTopMoutain/bangdangerous.webp"
+    },
+    {
+        "id": "6",
+        "name": "Everest",
+        "imageSrc": "/javascrip/imageTopMoutain/Ben Nevis.webp"
+    },
+    {
+        "id": "7",
+        "name": "Everest",
+        "imageSrc": "/javascrip/imageTopMoutain/K2.webp"
+    }
+
+]
