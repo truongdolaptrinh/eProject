@@ -62,7 +62,11 @@ p{
     font-size: 14px;
 }
 
-li{
+.skills{
+    margin-top: 60px;
+}
+
+.skills li{
     margin-left: 60px;
     font-size: 16px;
     color: #0C0B08BF;
@@ -160,4 +164,263 @@ a:hover{
 
 .dicoration{
     text-decoration: none;
+}
+
+.wapper-film{
+    max-width: 1000px;
+    margin: auto;
+    padding: 25px;
+    margin-top: 50px;
+}
+
+.wapper-film .card-film{
+    margin-bottom: 30px;
+    width: 100%;
+    text-align: left;
+}
+
+.wapper-film .card-film .img-film{
+    width: 500px;
+    height: 500px;
+    margin-bottom: 15px;
+}
+
+.wapper-film .card-film .img-film img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.wapper-skill{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    justify-content: space-evenly;
+}
+
+.wapper-skill a{
+    transition: 0.25s;
+}
+.wapper-skill a:hover{
+    transform: scale(1.05);
+}
+
+.wapper-skill .skill-card{
+    width: 350px;
+    height: 280px;
+    border: 1px solid #e2daeb;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.wapper-skill .skill-card .images{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+}
+.wapper-skill .skill-card .images img{
+    margin-top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.wapper-skill .skill-card p{
+    margin-left: 5%;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.content-paging{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+/* .content .content-paging .page{
+    flex-grow: 1;
+} */
+
+.content-paging .page-config{
+    margin-right: 30px;
+}
+
+.content-paging .page-config select{
+    width: 50px;
+    height: 25px;
+    border-radius: 3px;
+}
+
+.content-paging .total-item , .total-page{
+    margin-right: 30px;
+}
+
+.content-paging .number-page{
+    display: flex;
+}
+
+.content-paging ul{
+    display: flex;
+    justify-content: center;
+}
+
+.content-paging li{
+   width: 30px;
+   height: 30px;
+   border-radius: 3px;
+   border: 1px solid gray;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-right: 15px;
+   cursor: pointer;
+}
+
+.content-paging ul li a{
+    color:black;
+}
+
+.btn-active{
+    color: #c6c9cc;
+    border: solid 1px #c6c9cc !important;
+}
+
+.content-paging .active{
+    background: #ff6e06;
+    border: 1px solid #ff6e06;
+}
+
+.content-paging .active a{
+    color: white;
+}
+
+.container-dangerous{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: auto;
+    max-width: 1200px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.magin{
+    margin-top: 80px;
+}
+
+.container-dangerous .dangerous{
+    width: 90%;
+    margin: auto;
+}
+.dangerous-img{
+    max-width: 80%;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+.dangerous-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.danger-falling{
+    max-width: 90%;
+    margin: auto;
+}
+
+.danger-falling img{
+    width: 650px;
+    height: 500px;
+    float: right;
+}
+
+
+@media (max-width: 1370px) {
+    .wapper-skill .skill-card{
+        width: 400px;
+        height: 350px;
+    }
+    .wapper-skill .skill-card p{
+        font-size: 22px;
+    }
+    .wapper-skill .skill-card .images{
+        height: 250px;
+    }
+}
+@media (max-width: 1060px) {
+    .wapper-skill{
+        width: 90%;
+    }
+    .wapper-skill .skill-card{
+        width: 350px;
+        height: 300px;
+    }
+    .wapper-skill .skill-card p{
+        font-size: 22px;
+    }
+    .wapper-skill .skill-card .images{
+        height: 220px;
+    }
+}
+
+@media (max-width: 942px) {
+    .danger-falling img{
+        float: none;
+        width: 100%;
+        height: 400px;
+    }
+}
+
+@media (max-width: 820px) {
+    .wapper-skill{
+        width: 90%;
+    }
+    .wapper-skill .skill-card{
+        width: 100%;
+        height: 500px;
+    }
+    .wapper-skill .skill-card p{
+        font-size: 25px;
+    }
+    .wapper-skill .skill-card .images{
+        height: 400px;
+    }
+}
+@media (max-width: 650px) {
+    .wapper-skill .skill-card{
+        width: 100%;
+        height: 300px;
+    }
+    .wapper-skill .skill-card .images{
+        height: 250px;
+    }
+}
+
+@media (max-width: 615px) {
+    .danger-falling img{
+        float: none;
+        width: 100%;
+        height: 300px;
+    }
+}
+
+@media (max-width: 569px) {
+    .wapper-film .card-film .img-film{
+        width: auto;
+        height: auto;
+    }
+}
+
+@media (max-width: 430px) {
+    .danger-falling img{
+        float: none;
+        width: 100%;
+        height: 250px;
+    }
 }

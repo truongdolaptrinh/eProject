@@ -1,0 +1,46 @@
+[
+    {
+        "movieName": "1. Valley Uprising",
+        "imageFilm": "/images/image-films-1.jpg",
+        "time": "90 minutes",
+        "watch": "Amazon Prime Video, RedBull TV",
+        "content1": "Take a journey back in time to when climbing began in California’s Yosemite National Park. Valley Uprising is the riveting and unforgettable tale of the bold rock climbing tradition: half a century of struggle against the laws of gravity — and the laws of the land.",
+        "content2": "Get to know some of the original kings and queens of the climbing counterculture, from Lynn Hill and Royal Robbins to Warren Harding and more."
+    },{
+        "movieName": "2. The Alpinist",
+        "imageFilm": "/images/image-films-2.jpg",
+        "time": "92 minutes",
+        "watch": "Netflix",
+        "content1": "The Alpinist follows Canadian climber Marc-André Leclerc as he defies all odds on some of the most rigorous, frozen heights in the world. Leclerc climbs alone, with no interest in the limelight. On remote alpine faces, the free-spirited 23-year-old makes some of the boldest solo ascents in history. Yet, he draws scant attention. With no cameras, no rope, and no margin for error, Marc-André’s approach is the essence of solo adventure.",
+        "content2": " "
+    },{
+        "movieName": "3. The Dawn Wall",
+        "imageFilm": "/images/image-films-3.jpg",
+        "time": "100 minutes",
+        "watch": "Amazon Prime Video",
+        "content1": "Follow legendary free climber Tommy Caldwell as he attempts to get over heartbreak by scaling 3,000ft of an impossible rock face: the Dawn Wall of El Capitan.",
+        "content2": "Blurring the line between dedication and obsession, Caldwell and his partner Kevin Jorgeson spend six years meticulously plotting and practicing their route. On the final attempt, with the world watching, Caldwell is faced with a moment of truth. Should he abandon his partner to fulfill his ultimate dream, or risk his own success for the sake of their friendship?"
+    },{
+        "movieName": "4. Meru",
+        "imageFilm": "/images/image-films-4.jpg",
+        "time": "87 minutes",
+        "watch": "Amazon Prime Video, Tubi",
+        "content1": "In the high-stakes game of big-wall climbing, the Shark’s Fin on Mount Meru may be the ultimate achievement. Sitting at the headwaters of the sacred Ganges River in Northern India, the Shark’s Fin has seen more failed attempts by elite climbing teams over the past 30 years than any other ascent in the Himalayas.",
+        "content2": "Follow Conrad Anker, Jimmy Chin and Renan Ozturk as they attempt to tackle this impossible feat with a multitude of hurdles to jump over."
+    },{
+        "movieName": "5. 14 Peaks: Nothing is Impossible",
+        "imageFilm": "/images/image-films-5.jpg",
+        "time": "101 minutes",
+        "watch": "Netflix",
+        "content1": "Watch as fearless Nepali mountaineer Nimsdai Purja embarks on a seemingly impossible quest to summit all 14 of the world’s 8,000-meter peaks in seven months. With a team of skilled Sherpas, Nimsdai traverses Mount Everest, K2, and other iconic peaks through extreme weather, life-or-death decisions, and the emotional weight of his mother’s illness back home.",
+        "content2": " "
+    },{
+        "movieName": "6. Cerro Torre: A Snowball’s Chance in Hell",
+        "imageFilm": "/images/image-films-6.jpg",
+        "time": "101 minutes",
+        "watch": "RedBull Tv",
+        "content1": "Cerro Torre is one of the most formidable mountain faces on the planet. Its 3,128m tower pierces the peaks of Patagonia and near its summit, the rock crumbles like flaky pastry. This climb is not for the faint of heart, which is why it appealed to the late David Lama, a revolutionary climber.",
+        "content2": "When Lama announced his plans to go up unaided, big wall legend Jim Bridwell, who climbed it in 1979, offered one simple piece of advice: “You haven’t got a snowball’s chance in hell.” Watch on the edge of your seat as he attempts this deadly ascent."
+    }
+    
+]
