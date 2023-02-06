@@ -39,54 +39,6 @@ header.sticky {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
 
-/* header{
-  z-index: 1000;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 200px;
-  transition: 0.5 ease;
-}
-
-header .brand {
-  color: #fff;
-  font-size: 1.5em;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
-header .navigation {
-  position: relative;
-}
-
-header .navigation .navigation-items a {
-  position: relative;
-  font-size: 1em;
-  font-weight: 500;
-  text-decoration: none;
-  margin-left: 30px;
-  transition: 0.3s ease;
-  color: white;
-}
-
-header .navigation .navigation-items a:before{
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 3px;
-    bottom: 0;
-    left: 0;
-    transition: 0.3s ease;
-}
-
-header .navigation .navigation-items a:hover:before {
-  width: 100%;
-} */
 
 #home {
     position: relative;
@@ -184,8 +136,8 @@ header .navigation .navigation-items a:hover:before {
 }
 
 .slider-navigation .nav-btn {
-  width: 12px;
-  height: 12px;
+  width: 20px;
+  height: 20px;
   background: #fff;
   border-radius: 50%;
   cursor: pointer;
@@ -204,7 +156,6 @@ header .navigation .navigation-items a:hover:before {
 .slider-navigation .nav-btn:hover {
   transform: scale(1.2);
 }
-
 .video-slide {
   position: absolute;
   width: 100%;
@@ -452,68 +403,6 @@ header .navigation .navigation-items a:hover:before {
     right: 15px;
   }
 
-  /* header {
-    padding: 12px 20px;
-  }
-
-  header .navigation {
-    display: none;
-  }
-
-  header .navigation.active {
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: rgba(1, 1, 1, 0.5);
-  }
-
-  header .navigation.active .navigation-items {
-    background: #fff;
-    width: 600px;
-    max-width: 600px;
-    margin: 20px;
-    padding: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 5px;
-    box-shadow: 0 5px 25px rgba(1 1 1 / 20%);
-  }
-
-  header .navigation .navigation-items a {
-    color: #222;
-    font-size: 1.2em;
-    margin: 20px;
-  }
-
-  header .navigation .navigation-items a:before{
-        background: #222;
-        height: 5px;
-    }
-
-  .menu-btn {
-    background: url(../images/icons/menu.png) no-repeat;
-    background-size: 25px;
-    background-position: center;
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-    transition: 0.3s ease;
-  }
-
-  .menu-btn.active {
-    z-index: 999;
-    background: url(../images/icons/close.png) no-repeat;
-    background-size: 25px;
-    background-position: center;
-    transition: 0.3s ease;
-  } */
-
   .footer-list {
     width: 50%;
     margin-bottom: 12px;
@@ -566,14 +455,10 @@ header .navigation .navigation-items a:hover:before {
   width: 100%; /* The width is the width of the web page */
 }
 
-/* .nut a{
-  text-decoration: none;
-  color: black;
-} */
-
 .direction{
   text-align: center;
 }
+
 .direction button{
   font-family: cursive;
   font-weight: bold;
