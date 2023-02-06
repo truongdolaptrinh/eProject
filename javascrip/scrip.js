@@ -52,3 +52,10 @@ window.onload = function(){
         document.getElementById('formList').scrollLeft -= widthItem;
     }
 };
+  
+/* Demo purposes only */
+$(".hover").mouseleave(
+    function() {
+      $(this).removeClass("hover");
+    }
+  );

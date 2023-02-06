@@ -1,0 +1,233 @@
+:root {
+  --bg-color: #fff;
+  --text-color: #221314;
+  --second-color: #5a7184;
+  --main-color: #6e54fa;
+  --big-font: 6rem;
+  --h2-font: 3rem;
+  --p-font: 1.1rem;
+}
+.container {
+  position: relative;
+  background-image: url("../images/mountains/Mount\ Logan.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+.blur {
+  text-align: center;
+  display: flex;
+  /* width: 50%; */
+  backdrop-filter: blur(4px); /* blur effect to the backdrop */
+  background-color: rgba(255, 255, 255, 0.2);
+  font-size: 30px;
+  height: fit-content;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  /* height: 100vh; */
+}
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:200);
+.snip1577 {
+font-family: 'Montserrat', Arial, sans-serif;
+position: relative;
+display: inline-block;
+overflow: hidden;
+margin: 10px;
+min-width: 230px;
+max-width: 315px;
+width: 100%;
+color: #fff;
+text-align: left;
+font-size: 16px;
+background: #000;
+}
+
+.snip1577 *,
+.snip1577:before,
+.snip1577:after {
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+-webkit-transition: all 0.4s ease;
+transition: all 0.4s ease;
+}
+
+.snip1577 img {/* max-width: 300px; */backface-visibility: hidden;vertical-align: top;width: inherit;height: auto;/* line-height: 36px; *//* max-height: 20rem; *//* width: 40vh; */}
+
+.snip1577:before,
+.snip1577:after {
+position: absolute;
+top: 20px;
+right: 20px;
+content: '';
+background-color: #fff;
+z-index: 1;
+opacity: 0;
+}
+
+.snip1577:before {
+width: 0;
+height: 1px;
+}
+
+.snip1577:after {
+height: 0;
+width: 1px;
+}
+
+.snip1577 figcaption {
+position: absolute;
+left: 0;
+bottom: 0;
+padding: 15px 20px;
+}
+
+.snip1577 h3,
+.snip1577 h4 {
+margin: 0;
+font-size: 1.1em;
+font-weight: normal;
+opacity: 0;
+}
+
+.snip1577 h4 {
+font-size: .8em;
+text-transform: uppercase;
+}
+
+.snip1577 a {position: absolute;top: 0;bottom: 0;left: 0;right: 0;z-index: 1;line-height: 139px;/* width: 33vh; */}
+
+.snip1577:hover img,
+.snip1577.hover img {
+zoom: 1;
+filter: alpha(opacity=20);
+-webkit-opacity: 0.2;
+opacity: 0.2;
+}
+
+.snip1577:hover:before,
+.snip1577.hover:before,
+.snip1577:hover:after,
+.snip1577.hover:after {
+opacity: 1;
+-webkit-transition-delay: 0.25s;
+transition-delay: 0.25s;
+}
+
+.snip1577:hover:before,
+.snip1577.hover:before {
+width: 40px;
+}
+
+.snip1577:hover:after,
+.snip1577.hover:after {
+height: 40px;
+}
+
+.snip1577:hover h3,
+.snip1577.hover h3,
+.snip1577:hover h4,
+.snip1577.hover h4 {
+opacity: 1;
+}
+
+.snip1577:hover h3,
+.snip1577.hover h3 {
+-webkit-transition-delay: 0.3s;
+transition-delay: 0.3s;
+}
+
+.snip1577:hover h4,
+.snip1577.hover h4 {
+-webkit-transition-delay: 0.35s;
+transition-delay: 0.35s;
+}
+section{
+  align-items: center;
+  /* max-width: 296px; */
+  max-height: 82rem;
+  margin-block: 5rem;
+}
+
+
+
+/* footer */
+
+#contact {
+  background: black;
+}
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-list {
+  width: 25%;
+}
+.footer-list h4 {
+  font-size: 21px;
+  color: var(--bg-color);
+  margin-bottom: 30px;
+  position: relative;
+}
+.footer-list h4::before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 60px;
+  left: 0;
+  bottom: -10px;
+  background: var(--bg-color);
+}
+.footer-list ul li:not(last-child) {
+  margin-bottom: 16px;
+}
+.footer-list ul li a {
+  color: #ffffffbf;
+  font-size: var(--p-font);
+  display: block;
+  transition: 0.3s;
+}
+.footer-list ul li a:hover {
+  color: var(--bg-color);
+  transform: translateX(14px);
+}
+.footer-list .social a {
+  height: 40px;
+  width: 40px;
+  background: var(--bg-color);
+  color: var(--main-color);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 21px;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+.footer-list .social a:hover {
+  transform: scale(1.1);
+}
+.end-text {
+  text-align: center;
+  padding-top: 90px;
+}
+.end-text p {
+  color: var(--bg-color);
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+@media screen and (max-width: 1040px) {
+  section{
+    margin-top: 11vh
+  }
+  .footer-list {
+    width: 50%;
+    margin-bottom: 12px;
+  }
+  .scocial  a{
+    padding: 10px;
+  }
+}
