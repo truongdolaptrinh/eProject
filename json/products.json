@@ -3,54 +3,54 @@
         "category": "Knapsack",
         "price": "199.95",
         "name": "Gravity Expedition 45+ SL",
-        "imgSrc": "imagesProduct/bag_1.jpg"
+        "imgSrc": "/images/imagesProduct/bag_1.jpg"
     },
     {
         "category": "Petzl",
         "price": "199",
         "name": "Revo Belay Device",
-        "imgSrc": "imagesProduct/bag_2.jpg"
+        "imgSrc": "/images/imagesProduct/bag_2.jpg"
     },
     {
         "category": "Knapsack",
         "price": "199.95",
         "name": "Dawn Patrol 32",
-        "imgSrc": "imagesProduct/bag_4.jpg"
+        "imgSrc": "/images/imagesProduct/bag_4.jpg"
     },
     {
         "category": "Knapsack",
         "price": "175.00",
         "name": "Soelden 32 Snow Pack - Men's",
-        "imgSrc": "imagesProduct/bag_4.jpg"
+        "imgSrc": "/images/imagesProduct/bag_4.jpg"
     },
     {
         "category": "Knapsack",
         "price": "1,499.95",
         "name": "black crows Dorsa 20 Pack",
-        "imgSrc": "imagesProduct/bag_4.jpg"
+        "imgSrc": "/images/imagesProduct/bag_4.jpg"
     },
     {
         "category": "Knapsack",
         "price": "720.00",
         "name": "Ascent 28 S AVABAG",
-        "imgSrc": "imagesProduct/bag_4.jpg"
+        "imgSrc": "/images/imagesProduct/bag_4.jpg"
     },
     {
         "category": "Chalk",
         "price": "25.00",
         "name": "FrictionLabs Gorilla",
-        "imgSrc": "imagesProduct/bag_4.jpg"
+        "imgSrc": "/images/imagesProduct/bag_4.jpg"
     },
     {
         "category": "Helmet",
         "price": "59.95",
         "name": "Black Diamond Half",
-        "imgSrc": "imagesProduct/bag_4.jpg"
+        "imgSrc": "/images/imagesProduct/bag_4.jpg"
     },
     {
         "category": "Helmet",
         "price": "69.95",
         "name": "Capitan Climbing",
-        "imgSrc": "imagesProduct/bag_4.jpg"
+        "imgSrc": "/images/imagesProduct/bag_4.jpg"
     }
 ]

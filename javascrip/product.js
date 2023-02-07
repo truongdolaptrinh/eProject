@@ -5,6 +5,7 @@ const cartList = document.querySelector('.cart-list');
 const cartTotalValue = document.getElementById('cart-total-value');
 const cartCountInfo = document.getElementById('cart-count-info');
 
+
 let cartItemId = 1;
 
 eventListeners();
@@ -35,7 +36,7 @@ function updateCartInfo() {
 
 // load product items content from Json file
 function loadJSON() {
-  fetch('products.json')
+  fetch('/json/products.json')
   .then(reponse => reponse.json())
   .then(data => {
     let html = '';
@@ -61,6 +62,7 @@ function loadJSON() {
       `;
     });
     productList.innerHTML = html;
+    console.log(productList);
   });
   // .catch(error => {
   //   alert(`User live server or local server`);

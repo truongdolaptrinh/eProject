@@ -52,10 +52,54 @@ window.onload = function(){
         document.getElementById('formList').scrollLeft -= widthItem;
     }
 };
-  
-/* Demo purposes only */
-$(".hover").mouseleave(
-    function() {
-      $(this).removeClass("hover");
-    }
-  );
+
+const productContainers = [...document.querySelectorAll('.product-container')];
+const nxtBtn = [...document.querySelectorAll('.nxt-btn')];
+const preBtn = [...document.querySelectorAll('.pre-btn')];
+
+productContainers.forEach((item, i) => {
+    let containerDimensions = item.getBoundingClientRect();
+    let containerWidth = containerDimensions.width;
+
+    nxtBtn[i].addEventListener('click', () => {
+        item.scrollLeft += containerWidth;
+    })
+
+    preBtn[i].addEventListener('click', () => {
+        item.scrollLeft -= containerWidth;
+    })
+});
+
+const productHome = document.querySelector('.product-container');
+
+eventListeners();
+function eventListeners(){
+    window.addEventListener('DOMContentLoaded', () => {
+        loadJSONCardHome()
+    });
+}
+
+function loadJSONCardHome() {
+    fetch('/json/products.json')
+    .then(reponse => reponse.json())
+    .then(data => {
+      let html = '';
+      data.forEach(homeCard => {
+        html += `
+        <div class="product-card">
+            <div class="product-image">
+                <img src="${homeCard.imgSrc}" alt="">
+                <button class="card-btn">add to wishlist</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">${homeCard.category}</h2>
+                <p class="product-short-description">${homeCard.name}</p>
+                <span class="price">$${homeCard.price}</span>
+            </div>
+        </div>
+        `;
+      });
+      productHome.innerHTML = html;
+      console.log(productHome);
+    });
+}

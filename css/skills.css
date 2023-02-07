@@ -75,7 +75,7 @@ p{
 
 iframe{
     width: 100%;
-    height: 350px;
+    height: 100%;
 }
 
 .video{
@@ -243,24 +243,6 @@ a:hover{
     justify-content: center;
 }
 
-/* .content .content-paging .page{
-    flex-grow: 1;
-} */
-
-.content-paging .page-config{
-    margin-right: 30px;
-}
-
-.content-paging .page-config select{
-    width: 50px;
-    height: 25px;
-    border-radius: 3px;
-}
-
-.content-paging .total-item , .total-page{
-    margin-right: 30px;
-}
-
 .content-paging .number-page{
     display: flex;
 }
@@ -300,46 +282,113 @@ a:hover{
     color: white;
 }
 
-.container-dangerous{
-    padding-top: 40px;
-    padding-bottom: 40px;
-    margin: auto;
-    max-width: 1200px;
-    background-color: white;
-    font-family: Arial, Helvetica, sans-serif;
-}
 
-.magin{
+/* image page */
+.wapper_image{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
     margin-top: 80px;
+    justify-content: space-evenly;
 }
 
-.container-dangerous .dangerous{
-    width: 90%;
-    margin: auto;
-}
-.dangerous-img{
-    max-width: 80%;
-    margin: auto;
-    padding-bottom: 10px;
-}
-
-.dangerous-img img{
+.wapper_image img{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: center;
+
+}
+.wapper_image .image{
+    margin-bottom: 50px;
+    width: 300px;
+    height: 250px;
+    border-radius: 4px;
+    transition: 0.25s;
 }
 
-.danger-falling{
-    max-width: 90%;
+.wapper_image .image p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #0C0B08BF;
+}
+
+.wapper_image .image:hover img{
+    transform: scale(1.05);
+}
+
+/* .gallery{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgb(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    color: white;
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.8);
+    transition: 0.5s;
+}
+
+.gallery_inner{
+    width: 70%;
+    height: 70%;
     margin: auto;
 }
 
-.danger-falling img{
-    width: 650px;
-    height: 500px;
-    float: right;
+.close{
+    position: fixed;
+    top: 15px;
+    right: 25px;
+    font-size: 35px;
 }
 
+.control{
+    font-size: 35px;
+    color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+}
+.control.prev{
+    left: 15px;
+}
+
+.control.next{
+    right: 15px;
+}
+.show{
+    opacity: 1;
+    pointer-events: auto;
+    transform: scale(1);
+}
+.hide{
+    display: none;
+} */
+
+/* Page Video */
+
+.wapper-video{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-top: 40px;
+    width: 95%;
+    display: grid;
+	justify-content: space-evenly;
+	grid-template-columns: repeat(3, 1fr);
+	column-gap: 1rem;
+}
+
+.wapper-video .card-video{
+    max-width: 500px;
+    height: 315px;
+    margin-bottom: 40px;
+}
 
 @media (max-width: 1370px) {
     .wapper-skill .skill-card{
@@ -351,6 +400,12 @@ a:hover{
     }
     .wapper-skill .skill-card .images{
         height: 250px;
+    }
+    .wapper-video{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .wapper-video .card-video{
+        max-width: 700px;
     }
 }
 @media (max-width: 1060px) {
@@ -374,6 +429,13 @@ a:hover{
         float: none;
         width: 100%;
         height: 400px;
+    }
+    .wapper-video{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .wapper-video .card-video{
+        max-width: 700px;
+        height: 315px;
     }
 }
 
