@@ -45,6 +45,7 @@ text-align: left;
 font-size: 16px;
 background: #000;
 border-radius: 20px;
+max-height: 30vh;
 }
 
 .snip1577 *,
@@ -56,7 +57,7 @@ box-sizing: border-box;
 transition: all 0.4s ease;
 }
 
-.snip1577 img {/* max-width: 300px; */backface-visibility: hidden;vertical-align: top;width: inherit;height: auto;/* line-height: 36px; *//* max-height: 20rem; *//* width: 40vh; */}
+.snip1577 img { width: 40vh; height: 30vh;}
 
 .snip1577:before,
 .snip1577:after {
@@ -159,9 +160,14 @@ section{
   }
   .footer-list {
     width: 50%;
-    margin-bottom: 12px;
   }
   .scocial  a{
     padding: 10px;
+  }
+  .snip1577{
+    max-height: 23vh;
+  }
+  .footer-list .social a{
+    margin-right: 0;
   }
 }
