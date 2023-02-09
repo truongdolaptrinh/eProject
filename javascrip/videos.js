@@ -64,7 +64,7 @@ const videos = [
     {id: "63", videoScr: "https://www.youtube.com/embed/xBS6SxlC64s"}
 ]
 
-let perPage = 9;
+let perPage = 13;
 let idPages = 1;
 let start = 0;
 let end = perPage;
