@@ -71,6 +71,7 @@ header .navbar .links li a:hover{
     color: #e99c2f;
 }
 .links li:hover .htmlcss-arrow,
+.links li:hover .basic-arrow,
 .links li:hover .js-arrow{
   transform: rotate(180deg);
   }
@@ -96,6 +97,7 @@ header .navbar .links li .sub-menu{
   z-index: 2;
 }
 header .navbar .links li:hover .htmlCss-sub-menu,
+header .navbar .links li:hover .basic-sub-menu,
 header .navbar .links li:hover .js-sub-menu{
   display: block;
 }
