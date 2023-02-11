@@ -5,6 +5,7 @@ const cartList = document.querySelector('.cart-list');
 const cartTotalValue = document.getElementById('cart-total-value');
 const cartCountInfo = document.getElementById('cart-count-info');
 
+const productHome = document.querySelector('.product-container');
 
 let cartItemId = 1;
 
@@ -23,6 +24,7 @@ function eventListeners(){
   });
   // add to cart
   productList.addEventListener('click', purchaseProduct);
+  // productHome.addEventListener('click', addCardProduct);
   // delete from cart
   cartList.addEventListener('click', deleteProduct);
 }

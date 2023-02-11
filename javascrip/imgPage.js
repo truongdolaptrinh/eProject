@@ -1,13 +1,5 @@
-// var images = document.querySelectorAll('.image img');
-// var prev = document.querySelector('.prev');
-// var next = document.querySelector('.next');
-// var close = document.querySelector('.close');
-// var galleryImg = document.querySelector('.gallery_inner img');
-// var gallery = document.querySelector('.gallery');
-
 const cardImg = document.querySelector('.wapper_image');
 const cardFilm = document.querySelector('.card-film');
-// const cardSkills = document.querySelector('.wapper-skill')
 
 var currenIndex = 0;
 
@@ -17,33 +9,8 @@ function eventListeners(){
     window.addEventListener('DOMContentLoaded', () => {
         loadingJSONImage();
         loadingJSONFilm();
-        // loadingJSONSkills();
     });
 }
-
-// function loadingJSONSkills() {
-//     fetch('/json/skills.json')
-//     .then(reponse => reponse.json())
-//     .then(data => {
-//         let html = '';
-//         for (let i = 0; i < 9; i++) {
-//             const skills = data[i];
-//             html += `
-//             <a href="${skills.links}">
-//                 <div class="skill-card">
-//                     <figure class="images">
-//                         <img src="${skills.imageSrc}" alt="">
-//                     </figure>
-//                     <p>${skills.nameSkills}</p>
-//                 </div>
-//             </a>
-//             `;
-//         }
-//         cardSkills.innerHTML = html;
-//     });
-// }
-
-
 
 function loadingJSONImage() {
     fetch('/json/images.json')
