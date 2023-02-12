@@ -13,32 +13,131 @@
 </head>
 <body>
 
+	<header>
+		<div class="navbar">
+			<i class='bx bx-menu'></i>
+			<div class="logo"><a href="/index.html">Travel</a></div>
+			<div class="nav-links">
+				<div class="sidebar-logo">
+					<span class="logo-name">Travel</span>
+					<i class='bx bx-x' ></i>
+				</div>
+				<ul class="links">
+					<li><a href="/index.html">HOME</a></li>
+					<li><a href="/html/products/product_card.html">SHOP</a></li>
+					<li>
+						<a href="#">Practice</a>
+						<i class='bx bxs-chevron-down htmlcss-arrow arrow'></i>
+						<ul class="htmlCss-sub-menu sub-menu">
+							<li><a href="/html/dangerous.html">Hazards</a></li>
+							<li><a href="/html/theway.html">A beginner's guide</a></li>
+							<li><a href="/html/menu_skills.html">Skills</a></li>
+							<li><a href="/html/history.html">History</a></li>
+							<li><a href="/html/types.html">Types</a></li>
+							<li><a href="/html/shelters.html">Shelter</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">Librarys</a>
+						<i class='bx bxs-chevron-down js-arrow arrow'></i>
+						<ul class="js-sub-menu sub-menu">
+							<li><a href="/html/images.html">Photos</a></li>
+							<li><a href="/html/videos.html">Videos</a></li>
+							<li><a href="/html/film.html">Movies</a></li>
+						</ul>
+					</li>
+					<li><a href="/html/basics.html">Basics</a></li>
+					<li><a href="/html/about.html">About Us</a></li>
+				</ul>
+			</div>
+			<div class="search-cart">
+				<div class="search-box">
+					<i class='bx bx-search'></i>
+					<div class="input-box">
+					<input type="text" placeholder="Search...">
+					</div>
+				</div>
+				<div class="cart">
+					<button type="button" id="cart-btn">
+						<i class="fas fa-shopping-cart"></i>
+						<span id="cart-count-info">0</span>
+					</button>
+		
+					<div class="cart-container">
+						<div class="cart-list">
+							<!-- cart here -->
+						</div>
+		
+						<div class="cart-total">
+							<h3>Total: $</h3>
+							<span id="cart-total-value">120.00</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
 	<section class="home">
 		<img src="/images/image-films-bg.jpg" alt="">
-		<div class="content" style="margin-left: 0;max-width: 70%;left: 12px;bottom: 25px;">
-			<h1 style="font-size: 30px; line-height: 40px;text-align: center; color: #0f7ac1;">6 Inspirational Movies to Watch After You Finish “Free Solo”</h1>
-		</div>
 	</section>
 
     <section>
-        <div class="basics">
-            <div class="basic-card">
-                <img src="" alt="">
-            </div>
-        </div>
-		<div class="content-paging">
-			<li class="btn-prev fas fa-angle-left"></li>
-            <li class="btn-next fas fa-angle-right"></li>
+        <div class="skills">
+			<h1>Intro to Sport Lead Climbing</h1>
+			<p>&nbsp;</p>
+			<p>If you’ve mastered Sport Climbing Basics as a top-rope climber, the next logical step is learning how to lead climb. In this series, you’ll learn what lead climbing is, how to belay a lead climber, how to clip quickdraws and the proper way to fall.</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<div class="basic-card">
+				<a href="/html/skills/skills_lead_climbing_basics.html">
+					<div class="basic-img">
+						<img src="/images/skills_86.jpg" alt="">
+					</div>
+					<div class="basic-text">
+						<h3>Lead Climbing Basics</h3>
+						<p>Read about the basics of lead climbing, including what lead climbing entails, how to learn to do it and what gear is required.</p>
+					</div>
+				</a>
+			</div>
+			<div class="basic-card">
+				<a href="/html/skills/skills_belay_a_lead_climber.html">
+					<div class="basic-img">
+						<img src="/images/skills_48.jpg" alt="">
+					</div>
+					<div class="basic-text">
+						<h3>How to Belay a Lead Climber</h3>
+						<p>Learn to belay a lead climber, including how it differs from top-rope belaying. We cover gear, setup, safety, communication and technique.</p>
+					</div>
+				</a>
+			</div>
+			<div class="basic-card">
+				<a href="/html/skills/skills_clip_quickdraws.html">
+					<div class="basic-img">
+						<img src="/images/skills_63.jpg" alt="">
+					</div>
+					<div class="basic-text">
+						<h3>Lead Climbing: How to Clip Quickdraws</h3>
+						<p>Learn how to quickly and efficiently clip quickdraws so you can move through the crux moves safely and securely.</p>
+					</div>
+				</a>
+			</div>
+			<div class="basic-card">
+				<a href="/html/skills/skills_fall_while_rock_climbing.html">
+					<div class="basic-img">
+						<img src="/images/skills_70.jpg" alt="">
+					</div>
+					<div class="basic-text">
+						<h3>How to Fall While Rock Climbing</h3>
+						<p>As a lead climber, learn how to manage the rope, to communicate with your belayer and how to position yourself before and during a fall.</p>
+					</div>
+				</a>
+			</div>
+			</div>
 		</div>
     </section>
 
-    
-
-	<script src="/javascrip/imgPage.js"></script>
-	<script src="/html/products/product.js"></script>
+	<script src="/javascrip/product.js"></script>
 	<script src="/javascrip/header.js"></script>
-	<script src="/javascrip/scrip.js"></script>
-
-	
 </body>
 </html>

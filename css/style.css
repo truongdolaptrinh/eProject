@@ -30,7 +30,7 @@ li {
 }
 
 header.sticky {
-  background: #000000;
+  background: #000033;
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
@@ -289,6 +289,7 @@ header.sticky {
   float: left;
   width: 60%;
   height: 600px;
+  margin-right: 10px;
 }
 .about{
   width: 80%;
@@ -304,6 +305,7 @@ header.sticky {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-indent: 20px;
 }
 .all-text h1{
   font-size: 30px;
@@ -460,6 +462,3 @@ header.sticky {
     max-width: 59vh;
   }
 }
-/* iframe{
-  max-width: 140vh;
-} */

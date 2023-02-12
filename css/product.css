@@ -47,13 +47,12 @@
 }
 
 .home .content h1{
-	margin-left: 10%;
+	color: #99cf1b;
     font-size: 4em;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 5px;
-	font-family: 'Poppins', sans-serif;
-    line-height: 75px;
+    line-height: 70px;
 }
 
 .home .content .typing{
@@ -62,7 +61,7 @@
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 5px;
-	margin-left: 20%;
+	margin-left: 15%;
 	overflow: hidden;
 	white-space: nowrap;
 	animation: typing 2s steps(50) infinite alternate,
@@ -95,11 +94,6 @@
 
 .product-list{
 	display: flex;
-	/* flex-wrap: wrap; */
-	/* justify-content: space-evenly; */
-	/* column-gap: 2rem; */
-	/* width: 95%; */
-	/* margin: auto; */
 }
 
 .product-item{
@@ -216,6 +210,6 @@
 
 @media (max-width: 580px) {
 	.home .content{
-		margin-left: 0;
+		margin-left: 2%;
 	}
 }

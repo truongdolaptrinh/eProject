@@ -11,6 +11,8 @@
     --granite-gray: #626a6a;
     --baltic-sea: #33383c;
     --trans: all 0.5s ease-in-out;
+    --success-color: #2691d9;
+    --error-color: #e74c3c;
 }
 
 body{
@@ -67,6 +69,7 @@ header .navbar .links li a{
   font-weight: 500;
 }
 
+
 header .navbar .links li a:hover{
     color: #e99c2f;
 }
@@ -90,7 +93,7 @@ header .navbar .links li .sub-menu{
   top: 70px;
   left: 0;
   line-height: 40px;
-  background: #626a6a;
+  background: #000022;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   border-radius: 0 0 4px 4px;
   display: none;
@@ -306,75 +309,191 @@ header .navbar .links li:hover .js-sub-menu{
     font-weight: 500;
 }
 
-/* Footer */
-
-#contact {
-  background: black;
+.search-cart .login a{
+  font-weight: 600;
+  margin-right: 20px;
+  border-radius: 8px;
+  border: 2px solid #00093c;
+  padding: 7px 16px 7px 16px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  background: #009933;
 }
-.footer-container {
+.search-cart .login a:hover{
+  color: #000022;
+  background: #fff;
+}
+
+
+/* login */
+.wapper-login{
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(120deg, #3ca7ee, #9b408f);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wapper-login .container{
+  width: 400px;
+  border: none;
+  border-radius: 10px;
+  background: #fff;
+  padding: 30px;
+}
+.wapper-login .container h1{
+  text-align: center;
+  font-size: 30px;
+}
+.from-control{
+  width: 100%;
+  position: relative;
+  margin-top: 40px;
+}
+.from-control span{
+  width: 0%;
+  position: absolute;
+  top: 38px;
+  left: 0;
+  border-bottom: 3px solid var(--success-color);
+  transition: 0.8s;
+}
+.from-control input{
+  width: 100%;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #adadad;
+}
+.from-control input:focus ~ span{
+  width: 100%;
+}
+.from-control.error small{
+  color: var(--error-color)
+}
+.from-control.error input{
+  border-bottom: 2px solid var(--error-color)
+}
+.btn-submit{
+  width: 100%;
+  height: 50px;
+  border: none;
+  outline: none;
+  background: var(--success-color);
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 25px 0;
+  border-radius: 25px;
+}
+
+
+
+/* Footer */
+footer{
+  width: 100%;
+  bottom: 0;
+  position: relative;
+  background: linear-gradient(to right, #00093c, #2d0b00);
+  color: #fff;
+  padding: 100px 0 30px;
+  border-top-left-radius: 125px;
+  font-size: 13px;
+  line-height: 20px;
+}
+.row{
+  width: 85%;
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
 }
-.footer {
-  padding: 20px 0;
+.row .col{
+  flex-basis: 25%;
+  padding: 10px;
 }
-.footer-list {
-  width: 25%;
+.row .col:nth-child(2), .col:nth-child(3){
+  flex-basis: 15%;
 }
-.footer-list h4 {
-  font-size: 21px;
-  color: var(--bg-color);
+.row .col h1{
+  font-size: 25px;
   margin-bottom: 30px;
+}
+.row .col h3{
+  width: fit-content;
+  margin-bottom: 40px;
   position: relative;
 }
-.footer-list h4::before {
-  content: "";
-  position: absolute;
-  height: 2px;
-  width: 60px;
-  left: 0;
-  bottom: -10px;
-  background: var(--bg-color);
+.row .col .email-id{
+  width: fit-content;
+  border-bottom: 1px solid #ccc;
+  margin: 20px 0;
 }
-.footer-list ul li:not(last-child) {
-  margin-bottom: 16px;
+.row .col ul li{
+  list-style: none;
+  margin-bottom: 12px;
 }
-.footer-list ul li a {
-  color: #ffffffbf;
-  font-size: var(--p-font);
-  display: block;
-  transition: 0.3s;
+.row .col ul li a{
+  text-decoration: none;
+  color: #fff;
 }
-.footer-list ul li a:hover {
-  color: var(--bg-color);
-  transform: translateX(14px);
-}
-.footer-list .social a {
-  height: 40px;
+.row .col .social-icons .bx{
   width: 40px;
-  background: var(--bg-color);
-  color: var(--main-color);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 21px;
-  border-radius: 15px;
-  transition: 0.3s;
-  margin-right: 10px;
-}
-.footer-list .social a:hover {
-  transform: scale(1.1);
-}
-.end-text {
+  height: 40px;
+  border-radius: 50%;
   text-align: center;
-  padding-top: 90px;
+  line-height: 40px;
+  font-size: 20px;
+  color: #000;
+  background: #fff;
+  margin-right: 15px;
+  cursor: pointer;
 }
-.end-text p {
-  color: var(--bg-color);
-  font-size: 14px;
-  letter-spacing: 2px;
+hr{
+  width: 90%;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  margin: 20px auto;
 }
-@media (max-width:920px) {
+.copy-right{
+  text-align: center;
+}
+.row .col .underline{
+  width: 100%;
+  height: 5px;
+  background: #767676;
+  border-radius: 3px;
+  position: absolute;
+  top: 25px;
+  left: 0;
+  overflow: hidden;
+}
+.row .col .underline span{
+  width: 15px;
+  height: 100%;
+  background: #fff;
+  border-radius: 3px;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  animation: moving 2s linear infinite;
+}
+
+@keyframes moving{
+  0%{
+    left: -20px;
+  }
+  100%{
+    left: 100%;
+  }
+}
+
+
+@media (max-width:922px) {
     header .navbar{
     max-width: 100%;
     padding: 0 25px;
@@ -390,8 +509,17 @@ header .navbar .links li:hover .js-sub-menu{
   header .navbar .links li a{
     font-size: 15px;
   }
+  footer{
+    bottom: unset;
+  }
+  .row .col{
+    flex-basis: 100%;
+  }
+  .row .col:nth-child(2), .col:nth-child(3){
+    flex-basis: 100%;
+  }
 }
-@media (max-width:800px){
+@media (max-width:974px){
   .navbar .bx-menu{
     display: block;
   }
@@ -402,7 +530,7 @@ header .navbar .links li:hover .js-sub-menu{
     display: block;
     max-width: 270px;
     width: 100%;
-    background:  #626a6a;
+    background:  #000022;
     line-height: 40px;
     padding: 20px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
@@ -487,16 +615,16 @@ header .navbar .links li .sub-menu li{
       transform: rotate(90deg);
     }
 }
+
+@media (min-width: 768px) {
+  .cart-container{
+    width: 480px;
+    left: auto;
+    right: 3rem;
+  }
+}
 @media (max-width:370px){
     header .navbar .nav-links{
   max-width: 100%;
 } 
-}
-
-@media (min-width: 768px) {
-	.cart-container{
-        width: 480px;
-        left: auto;
-        right: 3rem;
-    }
 }
