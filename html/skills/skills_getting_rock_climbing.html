@@ -5,12 +5,82 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Getting Started Rock Climbing</title>
-    <link rel="stylesheet" href="/css/skills.css">
-    <link rel="stylesheet" href="/css/product.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+	<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" href="/css/product.css">
+	<link rel="stylesheet" href="/css/header.css">
+	<link rel="stylesheet" href="/css/skills.css">
 
 </head>
 <body>
-
+    <header>
+		<div class="navbar">
+			<i class='bx bx-menu'></i>
+			<div class="logo"><a href="/index.html">Travel</a></div>
+			<div class="nav-links">
+				<div class="sidebar-logo">
+					<span class="logo-name">Travel</span>
+					<i class='bx bx-x' ></i>
+				</div>
+				<ul class="links">
+					<li><a href="/index.html">HOME</a></li>
+					<li><a href="/html/products/product_card.html">SHOP</a></li>
+					<li>
+						<a href="#">Practice</a>
+						<i class='bx bxs-chevron-down htmlcss-arrow arrow'></i>
+						<ul class="htmlCss-sub-menu sub-menu">
+							<li><a href="/html/dangerous.html">Hazards</a></li>
+							<li><a href="/html/theway.html">A beginner's guide</a></li>
+							<li><a href="/html/menu_skills.html">Skills</a></li>
+							<li><a href="/html/history.html">History</a></li>
+							<li><a href="/html/types.html">Types</a></li>
+							<li><a href="/html/shelters.html">Shelter</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">Librarys</a>
+						<i class='bx bxs-chevron-down js-arrow arrow'></i>
+						<ul class="js-sub-menu sub-menu">
+							<li><a href="/html/images.html">Photos</a></li>
+							<li><a href="/html/videos.html">Videos</a></li>
+							<li><a href="/html/film.html">Movies</a></li>
+						</ul>
+					</li>
+					<li><a href="/html/basics.html">Basics</a></li>
+					<li><a href="/html/about.html">About Us</a></li>
+					<li><a href="/html/login.html">Contact</a></li>
+				</ul>
+			</div>
+			<div class="search-cart">
+				<div class="search-box">
+					<i class='bx bx-search'></i>
+					<div class="input-box">
+						<input type="text" placeholder="Search...">
+						<div class="search-box-menu">
+							<!-- link search here -->							
+						</div>
+					</div>
+				</div>
+				<div class="cart">
+					<button type="button" id="cart-btn">
+						<i class="fas fa-shopping-cart"></i>
+						<span id="cart-count-info">0</span>
+					</button>
+		
+					<div class="cart-container">
+						<div class="cart-list">
+							<!-- cart here -->
+						</div>
+		
+						<div class="cart-total">
+							<h3>Total: $</h3>
+							<span id="cart-total-value">120.00</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
     <section class="home">
 		<img src="/images/img-bg-skills2.jpg" alt="">
 		<div class="content" style="margin-left: 0;max-width: 70%;left: 12px;">
@@ -21,7 +91,6 @@
     <section>
         <div class="skills">
             <h1>Getting Started Rock Climbing</h1>
-            <p class="p">This article is part of our series: <a href="basics.html">Intro to Rock Climbing</a></p>
             <figure class="images">
                 <img src="../../images/skills_109.jpg" alt="">
             </figure>
@@ -42,7 +111,7 @@
             <figure class="images">
                 <img src="../../images/skills_110.jpg" alt="">
             </figure>
-            <p>Bouldering requires the least amount of specialized gear and technical knowledge to get started. Though a few advanced climbs can get pretty high, most bouldering routes—often referred to as “problems”—take you only as high as you can jump off comfortably. Bouldering is a great introductory activity because it requires only climbing shoes, a chalk bag, a crash pad (to cushion your jump or fall off the rock), and experienced spotters to help guide your landing. You don't need a rope, a harness or other hardware. To learn more, check out our guide: <a href="skills_get_started_bouldering.html">How to Get Started Bouldering</a>.</p>
+            <p>Bouldering requires the least amount of specialized gear and technical knowledge to get started. Though a few advanced climbs can get pretty high, most bouldering routes—often referred to as “problems”—take you only as high as you can jump off comfortably. Bouldering is a great introductory activity because it requires only climbing shoes, a chalk bag, a crash pad (to cushion your jump or fall off the rock), and experienced spotters to help guide your landing. You don't need a rope, a harness or other hardware. To learn more, check out our guide: How to Get Started Bouldering.</p>
             <h3>Top-rope climbing</h3>
             <figure class="images">
                 <img src="../../images/skills_111.jpg" alt="">
@@ -52,12 +121,12 @@
             <figure class="images">
                 <img src="../../images/skills_112.jpg" alt="">
             </figure>
-            <p>After gaining comfort with top-roping or bouldering, you may be curious to learn more about <b>sport lead climbing</b> or <b>traditional lead climbing</b>. These skills are often necessary for outdoor roped climbing without a guide or more experienced climber. We’ll walk you through these options in <a href="#step5">Step 5</a>, and you can also check out the articles <a href="basics.html">Intro to Sport Lead Climbing</a> and <a href="">Intro to Trad Lead Climbing</a>.</p>
+            <p>After gaining comfort with top-roping or bouldering, you may be curious to learn more about <b>sport lead climbing</b> or <b>traditional lead climbing</b>. These skills are often necessary for outdoor roped climbing without a guide or more experienced climber. We’ll walk you through these options in <a href="#step5">Step 5</a>.</p>
             <p>&nbsp;</p>
             <h2 id="step2">Step 2: Try It Out</h2>
             <p>Top-roping and bouldering can both be done indoors and outdoors. REI Co-op Experiences offers intro indoor and outdoor rock climbing classes that include all the gear you need to get started. Many indoor climbing and bouldering gyms also offer classes and drop-in day passes.</p>
-            <p>Climbing outside on real rock can be thrilling, but involves a few more variables and a bit more experience. Because you’re not climbing in a controlled environment with pre-set routes, an experienced climber or guide needs to build the anchor to set up a top rope. If you’re set on ascending real rock outdoors, you can jump ahead to <a href="#step3">Step 3</a> and check out the article, <a href="">Learning to Climb Outdoors</a>, for more details.</p>
-            <p>New climbers often start in an indoor gym because these spaces are more readily accessible and not dependent on weather. At climbing gyms, you’ll find protective floor mats to cushion your landings, pre-set routes marked with color-coded plastic holds, top ropes already set up for you to climb and a social atmosphere. Many gyms also host classes to hone or learn a new skill. Read more details in the article <a href="">Indoor Gym Climbing Basics</a>.</p>
+            <p>Climbing outside on real rock can be thrilling, but involves a few more variables and a bit more experience. Because you’re not climbing in a controlled environment with pre-set routes, an experienced climber or guide needs to build the anchor to set up a top rope. If you’re set on ascending real rock outdoors, you can jump ahead to <a href="#step3">Step 3</a> and check out the article, <a href="skills_learning_to_climb_outdoors.html">Learning to Climb Outdoors</a>, for more details.</p>
+            <p>New climbers often start in an indoor gym because these spaces are more readily accessible and not dependent on weather. At climbing gyms, you’ll find protective floor mats to cushion your landings, pre-set routes marked with color-coded plastic holds, top ropes already set up for you to climb and a social atmosphere. Many gyms also host classes to hone or learn a new skill.</p>
             <figure class="images">
                 <img src="../../images/skills_113.jpg" alt="">
             </figure>
@@ -117,14 +186,58 @@
             <p>Bouldering ratings are a little more varied, with the <b>V Scale</b> being one of the more common, and ranking routes as V0 (easiest) through V16 (hardest).</p>
             <p>To learn more, see: <a href="skills_climbing_and_bouldering_rating_systems.html">Climbing and Bouldering Rating Systems</a>.</p>
             <h2 id="step5">Step Five: Level Up</h2>
-            <p>Once you get a feel for the basics, rock climbing offers countless opportunities to continue learning and growing. Some climbers love exploring more difficult movement, and indoor bouldering may be their favorite style of the sport. Others are fascinated by the technical skills and may pursue <a href="">sport climbing</a>, <a href="skills_trad_climbing_basics.html">trad climbing</a> or aid climbing.</p>
-            <p>After you become proficient at top-rope climbing in the gym or outdoors, you may be ready to progress to <a href="skills_lead_climbing_basics.html">lead climbing</a>, initially on sport-climbing routes. You can find learn-to-lead classes at your local gym or sign up for an outdoor sport leading class through REI Outdoor School. See <a href="">Sport Climbing Basics</a> for more information.</p>
-            <p>Perhaps your biggest goal is to spend time outside, exploring different areas. If you’re ready to head outdoors, it’s important to learn how to locate routes using a guidebook, <a href="skills_set_and_clean_to_top-rope_anchor.html">how to set up and clean a top-rope anchor</a>, and how to follow <a href="skills_leave_no_trace_climbing_ethics.html">outdoor climbing etiquette</a>. While it’s sometimes possible to set up top-rope anchors from the top of the wall, lead skills are often required to climb outside.</p>
+            <p>Once you get a feel for the basics, rock climbing offers countless opportunities to continue learning and growing. Some climbers love exploring more difficult movement, and indoor bouldering may be their favorite style of the sport. Others are fascinated by the technical skills and may pursue sport climbing, <a href="skills_trad_climbing_basics.html">trad climbing</a> or aid climbing.</p>
+            <p>After you become proficient at top-rope climbing in the gym or outdoors, you may be ready to progress to <a href="skills_lead_climbing_basics.html">lead climbing</a>, initially on sport-climbing routes. You can find learn-to-lead classes at your local gym or sign up for an outdoor sport leading class through REI Outdoor School. See <a href="skills_sport_climbing_basics.html">Sport Climbing Basics</a> for more information.</p>
+            <p>Perhaps your biggest goal is to spend time outside, exploring different areas. If you’re ready to head outdoors, it’s important to learn how to locate routes using a guidebook, <a href="skills_set_and_clean_to_top-rope_anchor.html">how to set up and clean a top-rope anchor</a>, and how to follow outdoor climbing etiquette. While it’s sometimes possible to set up top-rope anchors from the top of the wall, lead skills are often required to climb outside.</p>
             <p>With endless ways to engage in the sport, novices and professionals alike can discover new challenges in the vertical puzzle of climbing. If you follow your curiosity, stay open to learning, and keep having fun, climbing can be a lifelong activity to enjoy.</p>
             <p>&nbsp;</p>
             <p class="p">Remember: Safety is your responsibility. No internet article or video can replace proper instruction and experience. Make sure you’re practiced in proper techniques and safety requirements before you climb.</p>
         </div>
     </section>
-
+    <footer>
+		<div class="row">
+			<div class="col">
+				<h1>TRAVEL</h1>
+				<p>Our company is a leader in the Mountaineering and Climbing industry and has been
+					instrumental in setting guiding standards in the international climbing community. Our
+					mission and goals are simple: by using the best climbing talent in the country, we offer
+					the opportunity for climbers at all levels to achieve their personal aspirations through
+					quality, challenging, safe and fun expeditions. Unparalleled mountain adventures are
+					what we do.</p>
+			</div>
+			<div class="col">
+				<h3>Office <div class="underline"><span></span></div></h3>
+				<p>International Wilderness Leadership</p>
+				<p>PO Box 1081</p>
+				<p>Haines, AK 99827</p>
+				<p class="email-id">info@iwls.com</p>
+				<p>866.480.2644</p>
+			</div>
+			<div class="col">
+				<h3>Links <div class="underline"><span></span></div></h3>
+				<ul>
+					<li><a href="/html/products/product_card.html">Shop</a></li>
+					<li><a href="/html/about.html">About</a></li>
+					<li><a href="/html//basics.html">Basic</a></li>
+					<li><a href="/html/login.html">Contact</a></li>
+					<li><a href="/html/history.html">History</a></li>
+					<li><a href="/html/shelters.html">Shelter</a></li>
+					<li><a href="/html/videos.html">Videos</a></li>
+				</ul>
+			</div>
+			<div class="col">
+				<h3>Connect <div class="underline"><span></span></div></h3>
+				<div class="social-icons">
+					<i class='bx bxl-facebook'></i>
+					<i class='bx bxl-instagram-alt'></i>
+					<i class='bx bxl-twitter'></i>
+				</div>
+			</div>
+		</div>
+		<hr>
+		<p class="copy-right"> &#169;2019 SUMMITS. ALL RIGHTS RESERVED.</p>
+	</footer>
+    <script src="/javascrip/product.js"></script>
+	<script src="/javascrip/header.js"></script>
 </body>
 </html>

@@ -129,7 +129,7 @@ header .navbar .links li:hover .js-sub-menu{
 }
 .navbar .search-box{
   position: relative;
-   height: 40px;
+  height: 40px;
   width: 40px;
 }
 .navbar .search-box i{
@@ -148,11 +148,13 @@ header .navbar .links li:hover .js-sub-menu{
   position: absolute;
   right: calc(100% - 40px);
   top: 80px;
-  height: 60px;
+  height: 300px;
   width: 300px;
   background: #3E8DA8;
   border-radius: 6px;
   opacity: 0;
+  display: flex;
+  flex-direction: column;
   pointer-events: none;
   transition: all 0.4s ease;
 }
@@ -174,16 +176,47 @@ header .navbar .links li:hover .js-sub-menu{
 }
 .search-box .input-box input{
   position: absolute;
-  top: 50%;
+  top: 8%;
   left: 50%;
   border-radius: 4px;
   transform: translate(-50%, -50%);
   height: 35px;
-  width: 280px;
+  width: 90%;
   outline: none;
   padding: 0 15px;
   font-size: 16px;
   border: none;
+}
+.search-box .input-box .search-box-menu{
+  position: absolute;
+  top: 56%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80%;
+  width: 90%;
+  background: #e4eae6;
+  outline: none;
+  padding: 10px 15px;
+  font-size: 17px;
+  border: none;
+  line-height: 40px;
+  border-radius: 8px;
+  overflow-y: scroll;
+}
+.search-box .input-box .search-box-menu p{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.search-box .input-box .search-box-menu a{
+  text-decoration: none;
+  color: #000022;
+}
+.hide{
+  display: none;
+}
+.search-box .input-box .search-box-menu a:hover{
+  border-bottom: 1px solid #000022;
 }
 .navbar .nav-links .sidebar-logo{
   display: none;
@@ -309,22 +342,6 @@ header .navbar .links li:hover .js-sub-menu{
     font-weight: 500;
 }
 
-.search-cart .login a{
-  font-weight: 600;
-  margin-right: 20px;
-  border-radius: 8px;
-  border: 2px solid #00093c;
-  padding: 7px 16px 7px 16px;
-  text-decoration: none;
-  color: #fff;
-  font-size: 15px;
-  background: #009933;
-}
-.search-cart .login a:hover{
-  color: #000022;
-  background: #fff;
-}
-
 
 /* login */
 .wapper-login{
@@ -431,14 +448,20 @@ footer{
   flex-basis: 25%;
   padding: 10px;
 }
+.row .col p{
+  color: #fff;
+  text-align: left;
+}
 .row .col:nth-child(2), .col:nth-child(3){
   flex-basis: 15%;
 }
 .row .col h1{
+  color: #fff;
   font-size: 25px;
   margin-bottom: 30px;
 }
 .row .col h3{
+  color: #fff;
   width: fit-content;
   margin-bottom: 40px;
   position: relative;
@@ -476,6 +499,7 @@ hr{
 }
 .copy-right{
   text-align: center;
+  color: #fff;
 }
 .row .col .underline{
   width: 100%;

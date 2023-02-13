@@ -5,12 +5,82 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Route Finding and Navigation for Mountaineerin</title>
-    <link rel="stylesheet" href="/css/skills.css">
-    <link rel="stylesheet" href="/css/product.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+	<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" href="/css/product.css">
+	<link rel="stylesheet" href="/css/header.css">
+	<link rel="stylesheet" href="/css/skills.css">
 
 </head>
 <body>
-
+    <header>
+		<div class="navbar">
+			<i class='bx bx-menu'></i>
+			<div class="logo"><a href="/index.html">Travel</a></div>
+			<div class="nav-links">
+				<div class="sidebar-logo">
+					<span class="logo-name">Travel</span>
+					<i class='bx bx-x' ></i>
+				</div>
+				<ul class="links">
+					<li><a href="/index.html">HOME</a></li>
+					<li><a href="/html/products/product_card.html">SHOP</a></li>
+					<li>
+						<a href="#">Practice</a>
+						<i class='bx bxs-chevron-down htmlcss-arrow arrow'></i>
+						<ul class="htmlCss-sub-menu sub-menu">
+							<li><a href="/html/dangerous.html">Hazards</a></li>
+							<li><a href="/html/theway.html">A beginner's guide</a></li>
+							<li><a href="/html/menu_skills.html">Skills</a></li>
+							<li><a href="/html/history.html">History</a></li>
+							<li><a href="/html/types.html">Types</a></li>
+							<li><a href="/html/shelters.html">Shelter</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">Librarys</a>
+						<i class='bx bxs-chevron-down js-arrow arrow'></i>
+						<ul class="js-sub-menu sub-menu">
+							<li><a href="/html/images.html">Photos</a></li>
+							<li><a href="/html/videos.html">Videos</a></li>
+							<li><a href="/html/film.html">Movies</a></li>
+						</ul>
+					</li>
+					<li><a href="/html/basics.html">Basics</a></li>
+					<li><a href="/html/about.html">About Us</a></li>
+					<li><a href="/html/login.html">Contact</a></li>
+				</ul>
+			</div>
+			<div class="search-cart">
+				<div class="search-box">
+					<i class='bx bx-search'></i>
+					<div class="input-box">
+						<input type="text" placeholder="Search...">
+						<div class="search-box-menu">
+							<!-- link search here -->							
+						</div>
+					</div>
+				</div>
+				<div class="cart">
+					<button type="button" id="cart-btn">
+						<i class="fas fa-shopping-cart"></i>
+						<span id="cart-count-info">0</span>
+					</button>
+		
+					<div class="cart-container">
+						<div class="cart-list">
+							<!-- cart here -->
+						</div>
+		
+						<div class="cart-total">
+							<h3>Total: $</h3>
+							<span id="cart-total-value">120.00</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
     <section class="home">
 		<img src="/images/img-bg-skills2.jpg" alt="">
 		<div class="content" style="margin-left: 0;max-width: 70%;left: 12px;">
@@ -44,12 +114,11 @@
             <p><b>Read guidebooks and explore websites:</b> Even if you spent time looking in guidebooks and browsing websites while picking your route and planning the climb, it’s a good idea to do so again with the intention of learning everything you can about the route you’ve chosen.</p>
             <p>Guidebooks are a wonderful resource for detailed descriptions of climbing routes, and they typically include information such as elevation gain, mileage, route ratings and camping locations. Many also include pictures and maps that show where the route goes and give you a sense for what to expect.</p>
             <p>To find up-to-date route information, websites are a good place to go. You can generally find information about current conditions, road closures and trail closures. For popular routes, you can often find trip reports posted by people who have recently climbed the mountain. Websites such as <a href="https://www.summitpost.org/">SummitPost.org</a> are good places to go for descriptions of peaks and routes. Online forums dedicated to climbing are a great place for finding recent trip reports and posting questions you have about the route. Land agency websites can be helpful for getting information about road and trail closures and may offer detailed route information.</p>
-            <p><b>Study maps:</b> Gain familiarity with the area before setting foot on the mountain. As you look at a map, picture what terrain features will look like and try to recognize any obstacles, hazards or other challenges that you may encounter, like glaciers or cliffs. You can make marks on the map to indicate any helpful information you gleaned from guidebooks and websites, such as campsite locations or potential hazards, and you may want to draw your route on the map if it’s not already marked. Learn more about maps in our article, <a href="">How to Read a Topo Map.</a></p>
+            <p><b>Study maps:</b> Gain familiarity with the area before setting foot on the mountain. As you look at a map, picture what terrain features will look like and try to recognize any obstacles, hazards or other challenges that you may encounter, like glaciers or cliffs. You can make marks on the map to indicate any helpful information you gleaned from guidebooks and websites, such as campsite locations or potential hazards, and you may want to draw your route on the map if it’s not already marked.</p>
             <p><b>Talk to other mountaineers:</b> If they’ve been on the route recently, they’ll be able to tell you about things to look out for or areas that are difficult to navigate through. Calling local ranger stations in the area where you want to climb is another good way to get this type of info. Rangers will likely have up-to-date information about route conditions and anything else that may affect your climb.</p>
             <p>&nbsp;</p>
             <h3>Create a Route Plan</h3>
             <p>This involves breaking your trip up into segments (approach hike, climb, descent, etc.) and jotting down important information like how many miles you’ll hike, how many feet of elevation you’ll gain/lose, where you will camp, elapsed time and any other data you want to record. It can be helpful to include GPS coordinates for key locations, like the trailhead, camps, rest spots and the summit.</p>
-            <p>To learn more about route plans, and to see an example of one, read our article, <a href="">How to Plan a Mountaineering Trip</a>.</p>
             <h2>Route Finding While on the Mountain</h2>
             <p>While you’re on the mountain, successful route finding and navigation depend on your ability to keep track of where you are, recognize terrain features and potential hazards, plan for your descent, and travel in challenging conditions, like a whiteout. Here are things you can do to stay on course and pick an appropriate route up and down the mountain:</p>
             <p>&nbsp;</p>
@@ -106,11 +175,54 @@
                 <li><b>Record altimeter readings:</b> Like you did with your compass, jotting down the altitude at specific points along the route can be helpful later when you’re trying to locate that spot in a whiteout.</li>
                 <li><b>Stop moving:</b> Sometimes the best option will be to stop moving and wait out the weather. If you don’t feel you can safely continue, either up or down the mountain, then you may be better off hunkering down until there’s better visibility.</li>
             </ul>
+            <p>&nbsp;</p>
             <p><i><b>Climbing safety is your responsibility. No article or video can replace qualified instruction and experience.</b></i></p>
-            <h3>Related Articles</h3>
-            <p><a href="">How to Plan a Mountaineering Trip</a></p>
         </div>
     </section>
-
+    <footer>
+		<div class="row">
+			<div class="col">
+				<h1>TRAVEL</h1>
+				<p>Our company is a leader in the Mountaineering and Climbing industry and has been
+					instrumental in setting guiding standards in the international climbing community. Our
+					mission and goals are simple: by using the best climbing talent in the country, we offer
+					the opportunity for climbers at all levels to achieve their personal aspirations through
+					quality, challenging, safe and fun expeditions. Unparalleled mountain adventures are
+					what we do.</p>
+			</div>
+			<div class="col">
+				<h3>Office <div class="underline"><span></span></div></h3>
+				<p>International Wilderness Leadership</p>
+				<p>PO Box 1081</p>
+				<p>Haines, AK 99827</p>
+				<p class="email-id">info@iwls.com</p>
+				<p>866.480.2644</p>
+			</div>
+			<div class="col">
+				<h3>Links <div class="underline"><span></span></div></h3>
+				<ul>
+					<li><a href="/html/products/product_card.html">Shop</a></li>
+					<li><a href="/html/about.html">About</a></li>
+					<li><a href="/html//basics.html">Basic</a></li>
+					<li><a href="/html/login.html">Contact</a></li>
+					<li><a href="/html/history.html">History</a></li>
+					<li><a href="/html/shelters.html">Shelter</a></li>
+					<li><a href="/html/videos.html">Videos</a></li>
+				</ul>
+			</div>
+			<div class="col">
+				<h3>Connect <div class="underline"><span></span></div></h3>
+				<div class="social-icons">
+					<i class='bx bxl-facebook'></i>
+					<i class='bx bxl-instagram-alt'></i>
+					<i class='bx bxl-twitter'></i>
+				</div>
+			</div>
+		</div>
+		<hr>
+		<p class="copy-right"> &#169;2019 SUMMITS. ALL RIGHTS RESERVED.</p>
+	</footer>
+    <script src="/javascrip/product.js"></script>
+	<script src="/javascrip/header.js"></script>
 </body>
 </html>

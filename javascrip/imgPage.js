@@ -1,8 +1,6 @@
 const cardImg = document.querySelector('.wapper_image');
 const cardFilm = document.querySelector('.card-film');
 
-var currenIndex = 0;
-
 eventListeners();
 
 function eventListeners(){

@@ -5,12 +5,82 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Indoor (Gym) Climbing Basics</title>
-    <link rel="stylesheet" href="/css/skills.css">
-    <link rel="stylesheet" href="/css/product.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+	<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" href="/css/product.css">
+	<link rel="stylesheet" href="/css/header.css">
+	<link rel="stylesheet" href="/css/skills.css">
 
 </head>
 <body>
-
+    <header>
+		<div class="navbar">
+			<i class='bx bx-menu'></i>
+			<div class="logo"><a href="/index.html">Travel</a></div>
+			<div class="nav-links">
+				<div class="sidebar-logo">
+					<span class="logo-name">Travel</span>
+					<i class='bx bx-x' ></i>
+				</div>
+				<ul class="links">
+					<li><a href="/index.html">HOME</a></li>
+					<li><a href="/html/products/product_card.html">SHOP</a></li>
+					<li>
+						<a href="#">Practice</a>
+						<i class='bx bxs-chevron-down htmlcss-arrow arrow'></i>
+						<ul class="htmlCss-sub-menu sub-menu">
+							<li><a href="/html/dangerous.html">Hazards</a></li>
+							<li><a href="/html/theway.html">A beginner's guide</a></li>
+							<li><a href="/html/menu_skills.html">Skills</a></li>
+							<li><a href="/html/history.html">History</a></li>
+							<li><a href="/html/types.html">Types</a></li>
+							<li><a href="/html/shelters.html">Shelter</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">Librarys</a>
+						<i class='bx bxs-chevron-down js-arrow arrow'></i>
+						<ul class="js-sub-menu sub-menu">
+							<li><a href="/html/images.html">Photos</a></li>
+							<li><a href="/html/videos.html">Videos</a></li>
+							<li><a href="/html/film.html">Movies</a></li>
+						</ul>
+					</li>
+					<li><a href="/html/basics.html">Basics</a></li>
+					<li><a href="/html/about.html">About Us</a></li>
+					<li><a href="/html/login.html">Contact</a></li>
+				</ul>
+			</div>
+			<div class="search-cart">
+				<div class="search-box">
+					<i class='bx bx-search'></i>
+					<div class="input-box">
+						<input type="text" placeholder="Search...">
+						<div class="search-box-menu">
+							<!-- link search here -->							
+						</div>
+					</div>
+				</div>
+				<div class="cart">
+					<button type="button" id="cart-btn">
+						<i class="fas fa-shopping-cart"></i>
+						<span id="cart-count-info">0</span>
+					</button>
+		
+					<div class="cart-container">
+						<div class="cart-list">
+							<!-- cart here -->
+						</div>
+		
+						<div class="cart-total">
+							<h3>Total: $</h3>
+							<span id="cart-total-value">120.00</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
     <section class="home">
 		<img src="/images/img-bg-skills.jpg" alt="">
 		<div class="content" style="margin-left: 0;max-width: 70%;left: 12px;">
@@ -25,8 +95,7 @@
                     <img src="../../images/skills_140.jpg" alt="">
                 </figure>
                 <p>If you’re interested in learning how to climb, or you’re looking to amp up your climbing strength and skills, joining a climbing gym is a great way to go.</p>
-                <!-- thẻ a thiếu đường dẫn -->
-                <p>A good resource for finding a gym near you is the interactive <a href="">Climbing Gym Map</a> maintained by the Climbing Business Journal.</p>
+                <p>A good resource for finding a gym near you is the interactive Climbing Gym Map maintained by the Climbing Business Journal.</p>
                 <p>Available classes, as well as pricing and the height and complexity of climbing walls, vary between gyms. Some short-walled facilities only offer bouldering. Some big-wall gyms are architectural temples that have athletic-club amenities ranging from weight rooms to snack bars and childcare.</p>
                 <p>Other options include climbing walls and pinnacles in parks and other outdoor spaces. These can’t be used during uncooperative weather, though, which is a big reason climbing gyms are preferred by so many people.</p>
                 <p>&nbsp;</p>
@@ -37,7 +106,7 @@
                 <h3>Bouldering</h3>
                 <p>Requiring neither a harness nor a rope, bouldering involves routes that are close to the ground. A thick crash pad acts as a protective mat below you. Some gyms also require spotters, people who help prevent falls from injuring your head and neck.</p>
                 <p>Bouldering is a great way to build skill because you can focus solely on using your strength and balance to keep yourself on the wall. Novices appreciate the simplicity of it; skilled climbers like the challenge of more difficult routes.</p>
-                <p>For more information, see <a href="skills_get_started_bouldering.html">our article on bouldering</a>.</p>
+                <p>For more information, see our article on bouldering.</p>
                 <p>&nbsp;</p>
                 <h3>Top–Rope Climbing</h3>
                 <p>This is where a novice enters the world of harness-and-rope climbing. When you’re top roping, the rope is secured to an overhead anchor in the gym. You tie into one end of the rope; the other end of the rope is held by a belayer, who manages the rope to catch you in case of a fall. The belayer might be a trained staff person, a friend with belay certification or an auto belay device.</p>
@@ -96,14 +165,56 @@
                 <p>&nbsp;</p>
                 <h3>Related Articles</h3>
                 <p><a href="skills_getting_rock_climbing.html">Getting Started Rock Climbing</a></p>
-                <p><a href="skills_get_started_bouldering.html">Bouldering</a></p>
                 <p><a href="skills_learning_to_climb_outdoors.html">Gym to Crag: Learning to Climb Outdoors</a></p>
                 <p><a href="skills_sport_climbing_basics.html">Sport Climbing Basics</a></p>
                 <p><a href="skills_climbing_and_bouldering_rating_systems.html">Climbing and Bouldering Rating Systems</a></p>
-                <p><a href="skills_leave_no_trace_climbing_ethics.html">Climbing Ethics: Leave No Trace</a></p>
                 <p><a href="skills_train_for_rock_climbing_and_bouldering.html">Rock Climbing and Bouldering: Training Tips and Exercises</a></p>
             </div>
         </section>
-
+        <footer>
+            <div class="row">
+                <div class="col">
+                    <h1>TRAVEL</h1>
+                    <p>Our company is a leader in the Mountaineering and Climbing industry and has been
+                        instrumental in setting guiding standards in the international climbing community. Our
+                        mission and goals are simple: by using the best climbing talent in the country, we offer
+                        the opportunity for climbers at all levels to achieve their personal aspirations through
+                        quality, challenging, safe and fun expeditions. Unparalleled mountain adventures are
+                        what we do.</p>
+                </div>
+                <div class="col">
+                    <h3>Office <div class="underline"><span></span></div></h3>
+                    <p>International Wilderness Leadership</p>
+                    <p>PO Box 1081</p>
+                    <p>Haines, AK 99827</p>
+                    <p class="email-id">info@iwls.com</p>
+                    <p>866.480.2644</p>
+                </div>
+                <div class="col">
+                    <h3>Links <div class="underline"><span></span></div></h3>
+                    <ul>
+                        <li><a href="/html/products/product_card.html">Shop</a></li>
+                        <li><a href="/html/about.html">About</a></li>
+                        <li><a href="/html//basics.html">Basic</a></li>
+                        <li><a href="/html/login.html">Contact</a></li>
+                        <li><a href="/html/history.html">History</a></li>
+                        <li><a href="/html/shelters.html">Shelter</a></li>
+                        <li><a href="/html/videos.html">Videos</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3>Connect <div class="underline"><span></span></div></h3>
+                    <div class="social-icons">
+                        <i class='bx bxl-facebook'></i>
+                        <i class='bx bxl-instagram-alt'></i>
+                        <i class='bx bxl-twitter'></i>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p class="copy-right"> &#169;2019 SUMMITS. ALL RIGHTS RESERVED.</p>
+        </footer>
+        <script src="/javascrip/product.js"></script>
+	<script src="/javascrip/header.js"></script>
 </body>
 </html>
