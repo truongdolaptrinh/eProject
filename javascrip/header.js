@@ -33,3 +33,14 @@ let jsArrow = document.querySelector(".js-arrow");
 jsArrow.onclick = function() {
  navLinks.classList.toggle("show3");
 }
+
+// login
+var username = document.querySelector('#username');
+var email = document.querySelector('#email');
+var password = document.querySelector('#password');
+var conformPassword = document.querySelector('#conform-password');
+
+function showError(input){
+  console.log(input.parentElement);
+}
+showError(username);

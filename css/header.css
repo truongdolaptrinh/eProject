@@ -388,8 +388,23 @@ header .navbar .links li:hover .js-sub-menu{
   font-weight: bold;
   margin: 25px 0;
   border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
 }
-
+.btn-submit:hover{
+  background: #08609a;
+}
+.signup-link{
+  text-align: center;
+}
+.signup-link a{
+  color: var(--success-color);
+  text-decoration: none;
+  cursor: pointer;
+}
+.signup-link a:hover{
+  text-decoration: underline;
+}
 
 
 /* Footer */
