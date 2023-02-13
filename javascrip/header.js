@@ -34,24 +34,6 @@ jsArrow.onclick = function() {
  navLinks.classList.toggle("show3");
 }
 
-// search
-// fetch('/json/search.json')
-// .then(reponse => {return reponse.json();})
-// .then(data => {
-//   console.log(data);
-
-//   var listSearch = document.querySelector('.search-box-menu');
-//   listSearch.innerHTML = '';
-//   data.foreach(item => {
-//     var newList = document.createElement('div');
-//     newList.classList.add('search-list');
-//     newList.innerHTML = `
-//       <p><a href="${item.links}">${item.nameSearch}</a></p>
-//     `
-//     listSearch.appendChild(newList);
-//   })
-// })
-
 var searchList = document.querySelector('.search-box-menu');
 eventListeners();
 function eventListeners(){

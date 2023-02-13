@@ -324,6 +324,7 @@ a:hover{
     transform: scale(1.05);
 }
 
+/* videos */
 .wapper-video{
     display: flex;
     flex-wrap: wrap;

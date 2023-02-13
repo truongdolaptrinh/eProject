@@ -331,7 +331,26 @@ header.sticky {
   transition: 0.7s;
 }
 
-
+/* map */
+.wapper-map{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.wapper-map .map{
+  width: 780px;
+  height: 450px;
+  border: 0;
+  overflow: hidden;
+  margin: auto;
+  padding: 20px 10px 20px 10px;
+}
+.wapper-map .map iframe{
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
 
 @media (max-width: 1400px) {
   :root {
@@ -398,6 +417,10 @@ header.sticky {
   iframe{
    max-width: 90vh;
   }
+  .wapper-map .map{
+    width: 100%;
+    height: 400px;
+  }
 }
 @media (max-width: 575px) {
   #home .content h1 {
@@ -460,5 +483,8 @@ header.sticky {
   }
   iframe{
     max-width: 59vh;
+  }
+  .wapper-map .map{
+    height: 350px;
   }
 }

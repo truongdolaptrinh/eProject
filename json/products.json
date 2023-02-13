@@ -1,9 +1,10 @@
 [
     {
         "category": "Knapsack",
-        "price": "199.95",
+        "price": "123",
         "name": "Gravity Expedition 45+ SL",
-        "imgSrc": "/images/imagesProduct/bag_1.jpg"
+        "imgSrc": "/images/detail/Producct/Balo Vàng -1.webp",
+        "links": "/html/product_detail/detail2.html"
     },
     {
         "category": "Petzl",

@@ -1,38 +1,133 @@
 [
     {
         "id": "1",
-        "name": "Everest",
-        "imageSrc": "/javascrip/imageTopMoutain/Aconcagua.webp"
+        "name": "outdoor climbing",
+        "imageSrc": "/images/imageTopMoutain/dangeroushinhnen2.jpeg"
     },
     {
         "id": "2",
-        "name": "K2",
-        "imageSrc": "/javascrip/imageTopMoutain/Chimborazo.webp"
+        "name": "Mount K2",
+        "imageSrc": "/images/imageTopMoutain/K2.webp"
     },
     {
         "id": "3",
-        "name": "Phú Sỹ",
-        "imageSrc": "/javascrip/imageTopMoutain/Denali.webp"
+        "name": "Mount Denali",
+        "imageSrc": "/images/imageTopMoutain/Denali.webp"
     },
     {
         "id": "4",
-        "name": "Everest",
-        "imageSrc": "/javascrip/imageTopMoutain/Eiger.webp"
+        "name": "Mount Aconcagua",
+        "imageSrc": "/images/imageTopMoutain/Aconcagua.webp"
     },
     {
         "id": "5",
-        "name": "Everest",
-        "imageSrc": "/javascrip/imageTopMoutain/bangdangerous.webp"
+        "name": "Ben Nevis",
+        "imageSrc": "/images/imageTopMoutain/Ben Nevis.webp"
     },
     {
         "id": "6",
-        "name": "Everest",
-        "imageSrc": "/javascrip/imageTopMoutain/Ben Nevis.webp"
+        "name": "Chimborazo",
+        "imageSrc": "/images/imageTopMoutain/Chimborazo.webp"
     },
     {
         "id": "7",
-        "name": "Everest",
-        "imageSrc": "/javascrip/imageTopMoutain/K2.webp"
+        "name": "Mount Eiger",
+        "imageSrc": "/images/imageTopMoutain/Eiger.webp"
+    },
+    {
+        "id": "8",
+        "name": "Kanchenjunga",
+        "imageSrc": "/images/imageTopMoutain/Kanchenjunga.webp"
+    },
+    {
+        "id": "9",
+        "name": "Kilimanjaro",
+        "imageSrc": "/images/imageTopMoutain/Kilimanjaro.webp"
+    },
+    {
+        "id": "10",
+        "name": "Matterhorn",
+        "imageSrc": "/images/imageTopMoutain/Matterhorn.webp"
+    },
+    {
+        "id": "11",
+        "name": "Mauna Kea",
+        "imageSrc": "/images/imageTopMoutain/Mauna Kea.webp"
+    },
+    {
+        "id": "12",
+        "name": "Mont Blanc",
+        "imageSrc": "/images/imageTopMoutain/Mont Blanc.jpeg"
+    },
+    {
+        "id": "13",
+        "name": "Mount Ararat",
+        "imageSrc": "/images/imageTopMoutain/Mount Ararat.webp"
+    },
+    {
+        "id": "14",
+        "name": "Mount Cook",
+        "imageSrc": "/images/imageTopMoutain/Mount Cook.webp"
+    },
+    {
+        "id": "15",
+        "name": "Mount Elbrus",
+        "imageSrc": "/images/imageTopMoutain/Mount Elbrus.webp"
+    },
+    {
+        "id": "16",
+        "name": "Mount Everest",
+        "imageSrc": "/images/imageTopMoutain/Mount Everest.webp"
+    },
+    {
+        "id": "17",
+        "name": "Mount Fuji",
+        "imageSrc": "/images/imageTopMoutain/Mount Fuji.jpeg"
+    },
+    {
+        "id": "18",
+        "name": "Mount Kailash",
+        "imageSrc": "/images/imageTopMoutain/Mount Kailash.webp"
+    },
+    {
+        "id": "19",
+        "name": "Mount Kenya",
+        "imageSrc": "/images/imageTopMoutain/Mount Kenya.webp"
+    },
+    {
+        "id": "20",
+        "name": "Mount Kosciuszko",
+        "imageSrc": "/images/imageTopMoutain/Mount Kosciuszko.webp"
+    },
+    {
+        "id": "21",
+        "name": "Mount Logan",
+        "imageSrc": "/images/imageTopMoutain/Mount Logan.webp"
+    },
+    {
+        "id": "22",
+        "name": "Mount Olympus",
+        "imageSrc": "/images/imageTopMoutain/Mount Olympus.webp"
+    },
+    {
+        "id": "23",
+        "name": "Mount Rainier",
+        "imageSrc": "/images/imageTopMoutain/Mount Rainier.webp"
+    },
+    {
+        "id": "24",
+        "name": "Pico de Orizaba",
+        "imageSrc": "/images/imageTopMoutain/Pico de Orizaba.webp"
+    },
+    {
+        "id": "25",
+        "name": "Climbing group",
+        "imageSrc": "/images/imgShelters/shutterstock-498124654.webp"
+    },
+    {
+        "id": "26",
+        "name": "Climbing group",
+        "imageSrc": "/images/imgShelters/shutterstock-66661180.webp"
     }
 
 ]
