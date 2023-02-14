@@ -14,12 +14,12 @@ Student1425330  Nguyễn Minh Hiến
 
 ============================
 
-eProject documentation at https://github.com/lnnhi1310/Kitchen-Appliances/tree/main/documentary
+eProject documentation at https://github.com/truongdolaptrinh/eProject/tree/main/document
 
 
 ============================
 
-eProject published at https://lnnhi1310.github.io/Kitchen-Appliances/index.html
+eProject published at https://truongdolaptrinh.github.io/eProject/
 
 ============================
 
