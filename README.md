@@ -14,7 +14,7 @@ Student1425330  Nguyễn Minh Hiến
 
 ============================
 
-eProject documentation at https://github.com/truongdolaptrinh/eProject
+eProject documentation at https://github.com/truongdolaptrinh/eProject/tree/main/document
 
 
 ============================
