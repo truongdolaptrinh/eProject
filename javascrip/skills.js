@@ -157,7 +157,7 @@ const product = [
     }
 ]
 
-let perPage = 6;
+let perPage = 7;
 let idPages = 1;
 let start = 0;
 let end = perPage;

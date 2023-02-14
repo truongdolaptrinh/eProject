@@ -57,7 +57,7 @@ function loadJSON() {
 						<span class="product-category">${product.category}</span>
 						<p class="product-price">$${product.price}</p>
             <button type="button" class="detail-card-btn">
-              <a href="">Detail</a>
+              <a href="${product.links}">Detail</a>
             </button>
 					</div>
 				</div>
