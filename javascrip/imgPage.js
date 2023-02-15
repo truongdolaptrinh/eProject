@@ -11,7 +11,7 @@ function eventListeners(){
 }
 
 function loadingJSONImage() {
-    fetch('/json/images.json')
+    fetch('../json/images.json')
     .then(reponse => reponse.json())
     .then(data => {
         let html = '';
@@ -28,7 +28,7 @@ function loadingJSONImage() {
 }
 
 function loadingJSONFilm() {
-    fetch('/json/films.json')
+    fetch('../json/films.json')
     .then(reponse => reponse.json())
     .then(data => {
         let html = '';
