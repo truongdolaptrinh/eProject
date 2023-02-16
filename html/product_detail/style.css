@@ -24,7 +24,7 @@ body {
     position: relative;
     align-items: center;
     justify-content: center;
-    margin-top: 11vh;
+    margin-top: 13vh;
 }
 
 .row{
@@ -392,10 +392,12 @@ body {
     
 }
 .column2 {
-    float: left;
+    /* float: left;
     width: 50%;
-    padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
+    padding: 10px; */
+    /* height: 300px; Should be removed. Only for demonstration */
+    display: flex;
+    margin-left: ;
   }
   
   /* Clear floats after the columns */
@@ -469,4 +471,9 @@ body {
   
   .select-items div:hover, .same-as-selected {
     background-color: rgba(0, 0, 0, 0.1);
+  }
+  .tua_de{
+    padding: 11px;
+    border-radius: 10px;
+    width: 55vh;
   }
