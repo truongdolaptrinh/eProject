@@ -481,6 +481,7 @@ footer{
   margin-bottom: 12px;
 }
 .row .col ul li a{
+  font-size: 16px;
   text-decoration: none;
   color: #fff;
 }

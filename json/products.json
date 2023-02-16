@@ -3,91 +3,91 @@
         "category": "Balo",
         "price": "123",
         "name": "Gravity Expedition 45+ SL",
-        "imgSrc": "/images/detail/Producct/Balo Vàng -1.webp",
-        "links": "/html/product_detail/detail2.html"
+        "imgSrc": "../images/detail/Producct/Balo Vàng -1.webp",
+        "links": "../html/product_detail/detail2.html"
     },
     {
         "category": "Balo",
         "price": "199",
         "name": "Revo Belay Device",
-        "imgSrc": "/images/detail/Producct/Balo Xám -1.webp",
-        "links": "/html/product_detail/detail3.html"
+        "imgSrc": "../images/detail/Producct/Balo Xám -1.webp",
+        "links": "../html/product_detail/detail3.html"
     },
     {
         "category": "Balo",
         "price": "199.95",
         "name": "Dawn Patrol 32",
-        "imgSrc": "/images/detail/Producct/Balo Đỏ -1.webp",
-        "links": "/html/product_detail/detail4.html"
+        "imgSrc": "../images/detail/Producct/Balo Đỏ -1.webp",
+        "links": "../html/product_detail/detail4.html"
     },
     {
         "category": "Rope",
         "price": "175.00",
         "name": "Soelden 32 Snow Pack - Men's",
-        "imgSrc": "/images/detail/Producct/Dây leo CAM -1.webp",
-        "links": "/html/product_detail/detail5.html"
+        "imgSrc": "../images/detail/Producct/Dây leo CAM -1.webp",
+        "links": "../html/product_detail/detail5.html"
     },
     {
         "category": "Rope",
         "price": "1,499.95",
         "name": "black crows Dorsa 20 Pack",
-        "imgSrc": "/images/detail/Producct/Dây leo TRắng -1.webp",
-        "links": "/html/product_detail/detail6.html"
+        "imgSrc": "../images/detail/Producct/Dây leo TRắng -1.webp",
+        "links": "../html/product_detail/detail6.html"
     },
     {
         "category": "Rope",
         "price": "720.00",
         "name": "Ascent 28 S AVABAG",
-        "imgSrc": "/images/detail/Producct/Dây leo ĐEN -1.webp",
-        "links": "/html/product_detail/detail7.html"
+        "imgSrc": "../images/detail/Producct/Dây leo ĐEN -1.webp",
+        "links": "../html/product_detail/detail7.html"
     },
     {
         "category": "Gloves",
         "price": "25.00",
         "name": "FrictionLabs Gorilla",
-        "imgSrc": "/images/detail/Producct/Găng tay Nâu -1.webp",
-        "links": "/html/product_detail/detail8.html"
+        "imgSrc": "../images/detail/Producct/Găng tay Nâu -1.webp",
+        "links": "../html/product_detail/detail8.html"
     },
     {
         "category": "Gloves",
         "price": "59.95",
         "name": "Black Diamond Half",
-        "imgSrc": "/images/detail/Producct/Găng tay ĐEN -1.webp",
-        "links": "/html/product_detail/detail9.html"
+        "imgSrc": "../images/detail/Producct/Găng tay ĐEN -1.webp",
+        "links": "../html/product_detail/detail9.html"
     },
     {
         "category": "Shoses",
         "price": "69.95",
         "name": "Capitan Climbing",
-        "imgSrc": "/images/detail/Producct/giày CAM -1.webp",
-        "links": "/html/product_detail/detail10.html"
+        "imgSrc": "../images/detail/Producct/giày CAM -1.webp",
+        "links": "../html/product_detail/detail10.html"
     },
     {
         "category": "Shoses",
         "price": "69.95",
         "name": "Capitan Climbing",
-        "imgSrc": "/images/detail/Producct/giày xanh lá - 1.webp",
-        "links": "/html/product_detail/detail11.html"
+        "imgSrc": "../images/detail/Producct/giày xanh lá - 1.webp",
+        "links": "../html/product_detail/detail11.html"
     },
     {
         "category": "Shoses",
         "price": "69.95",
         "name": "Capitan Climbing",
-        "imgSrc": "/images/detail/Producct/giày đỏ - 1.webp",
-        "links": "/html/product_detail/detail12.html"
+        "imgSrc": "../images/detail/Producct/giày đỏ - 1.webp",
+        "links": "../html/product_detail/detail12.html"
     },
     {
         "category": "Helmet",
         "price": "69.95",
         "name": "Capitan Climbing",
-        "imgSrc": "/images/detail/Producct/Nón Xanh-1.webp",
-        "links": "/html/product_detail/detail13.html"
+        "imgSrc": "../images/detail/Producct/Nón Xanh-1.webp",
+        "links": "../html/product_detail/detail13.html"
     },
     {
         "category": "Petzl",
         "price": "69.95",
         "name": "Capitan Climbing",
-        "imgSrc": "/images/detail/Producct/Răng Cưa CAM -1 .webp",
-        "links": "/html/product_detail/detail14.html"
+        "imgSrc": "../images/detail/Producct/Răng Cưa CAM -1 .webp",
+        "links": "../html/product_detail/detail14.html"
     }
 ]
