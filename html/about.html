@@ -2,178 +2,238 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
-	<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="/css/product.css">
-    <link rel="stylesheet" href="/css/header.css">
-    <link rel="stylesheet" href="/css/skills.css">
-    <link rel="stylesheet" href="/css/about.css">
+    <!--important tags : these are important settings for your machine to know more about your code and how to display it-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--title-->
+    <title>ABOUT US </title>
+
+    <!--google fonts(the fonts that we are going to use in this tutorial: raleways and  open sans)-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700&display=swap"
+        rel="stylesheet">
+    <!--Link for open sans font type and its values-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
+
+    <!--Linking fontawesome file with html-->
+    <link rel="stylesheet" href="../css/about_css/fontawesome/css/font-awesome.min.css">
+
+    <!--Linking bootstrap file to html-->
+    <link rel="stylesheet" href="../css/about_css/bootstrap/bootstrap.css">
+
+    <!--Linking the css file to html-->
+    <link rel="stylesheet" href="../css/about_css/style/style.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/product.css">
+    <link rel="stylesheet" href="../css/skills.css">
+
+
+    <!-- source -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <!-- <link rel="stylesheet" href="../css/style.css"> -->
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+
+    <!-- <link rel="stylesheet" href="css/product.css"> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!--==Using-Font-Awesome-for-Icons=====-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
 </head>
-<body style="background-color: black;">
-    <header>
-		<div class="navbar">
-			<i class='bx bx-menu'></i>
-			<div class="logo"><a href="/index.html">Travel</a></div>
-			<div class="nav-links">
-				<div class="sidebar-logo">
-					<span class="logo-name">Travel</span>
-					<i class='bx bx-x' ></i>
-				</div>
-				<ul class="links">
-					<li><a href="/index.html">HOME</a></li>
-					<li><a href="/html/products/product_card.html">SHOP</a></li>
-					<li>
-						<a href="#">Practice</a>
-						<i class='bx bxs-chevron-down htmlcss-arrow arrow'></i>
-						<ul class="htmlCss-sub-menu sub-menu">
-							<li><a href="/html/dangerous.html">Hazards</a></li>
-							<li><a href="/html/theway.html">A beginner's guide</a></li>
-							<li><a href="/html/menu_skills.html">Skills</a></li>
-							<li><a href="/html/history.html">History</a></li>
-							<li><a href="/html/types.html">Types</a></li>
-							<li><a href="/html/shelters.html">Shelter</a></li>
-						</ul>
-					</li>
-					<li>
-						<a href="#">Librarys</a>
-						<i class='bx bxs-chevron-down js-arrow arrow'></i>
-						<ul class="js-sub-menu sub-menu">
-							<li><a href="/html/images.html">Photos</a></li>
-							<li><a href="/html/videos.html">Videos</a></li>
-							<li><a href="/html/film.html">Movies</a></li>
-						</ul>
-					</li>
-					<li><a href="/html/basics.html">Basics</a></li>
-					<li><a href="/html/about.html">About Us</a></li>
-					<li><a href="/html/login.html">Contact</a></li>
-				</ul>
-			</div>
-			<div class="search-cart">
-				<div class="search-box">
-					<i class='bx bx-search'></i>
-					<div class="input-box">
-						<input type="text" placeholder="Search...">
-						<div class="search-box-menu">
-							<!-- link search here -->							
-						</div>
-					</div>
-				</div>
-				<div class="cart">
-					<button type="button" id="cart-btn">
-						<i class="fas fa-shopping-cart"></i>
-						<span id="cart-count-info">0</span>
-					</button>
-		
-					<div class="cart-container">
-						<div class="cart-list">
-							<!-- cart here -->
-						</div>
-		
-						<div class="cart-total">
-							<h3>Total: $</h3>
-							<span id="cart-total-value">120.00</span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</header>
 
-<div class="container">
-		<div class="blur">
-           <section class="">
-            <figure class="snip1577">
-                <img src="https://images.saymedia-content.com/.image/t_share/MTc1MTI2OTE1OTUzMjcxOTAz/the-rock-climbing-history-of-the-piton.jpg" alt="sample99" />
-                <figcaption>
-                  <h3>History</h3>
-                </figcaption>
-                <a href="../html/history.html"></a>
-              </figure>
-              <figure class="snip1577"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample109.jpg" alt="sample109" />
-                <figcaption>
-                  <h3>Types/Style</h3>
-                </figcaption>
-                <a href="../html/types.html"></a>
-              </figure>
-              <figure class="snip1577"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample117.jpg" alt="sample117" />
-                <figcaption>
-                  <h3>Techniques</h3>
-                </figcaption>
-                <a href="../html/theway.html"></a>
-              </figure>
-			  <figure class="snip1577"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample117.jpg" alt="sample117" />
-                <figcaption>
-                  <h3>Sheltering</h3>
-                </figcaption>
-                <a href="../html/shelters.html"></a>
-              </figure>
-			  <figure class="snip1577"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample117.jpg" alt="sample117" />
-                <figcaption>
-                  <h3>Hazards</h3>
-                </figcaption>
-                <a href="../html/dangerous.html"></a>
-              </figure>
-			  <figure class="snip1577"><img src="https://www.howstean.co.uk/content/uploads/2018/08/1.jpg" alt="sample117" />
-                <figcaption>
-                  <h3>Skill</h3>
-                </figcaption>
-                <a href="../html/menu_skills.html"></a>
-              </figure>
-			 
-           </section>
-		</div>
-    </div>	
+<body >
+    <div class="background-img" style="background-image: url(https://i.natgeofe.com/n/c9107b46-78b1-4394-988d-53927646c72b/1095.jpg)">
+        <!-- header -->
+        <header>
+            <div class="navbar">
+                <i class='bx bx-menu'></i>
+                <div class="logo"><a href="../index.html">Travel</a></div>
+                <div class="nav-links">
+                    <div class="sidebar-logo">
+                        <span class="logo-name">Travel</span>
+                        <i class='bx bx-x'></i>
+                    </div>
+                    <ul class="links">
+                        <li><a href="../index.html">HOME</a></li>
+                        <li><a href="product_card.html">SHOP</a></li>
+                        <li>
+                            <a href="#">Practice</a>
+                            <i class='bx bxs-chevron-down htmlcss-arrow arrow'></i>
+                            <ul class="htmlCss-sub-menu sub-menu">
+                                <li><a href="dangerous.html">Hazards</a></li>
+                                <li><a href="theway.html">A beginner's guide</a></li>
+                                <li><a href="menu_skills.html">Skills</a></li>
+                                <li><a href="history.html">History</a></li>
+                                <li><a href="types.html">Types</a></li>
+                                <li><a href="shelters.html">Shelter</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Librarys</a>
+                            <i class='bx bxs-chevron-down js-arrow arrow'></i>
+                            <ul class="js-sub-menu sub-menu">
+                                <li><a href="images.html">Photos</a></li>
+                                <li><a href="videos.html">Videos</a></li>
+                                <li><a href="film.html">Movies</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="basics.html">Basics</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="login.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="search-cart">
+                    <div class="search-box">
+                        <i class='bx bx-search'></i>
+                        <div class="input-box">
+                            <input type="text" placeholder="Search...">
+                            <div class="search-box-menu">
+                                <!-- link search here -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart">
+                        <button type="button" id="cart-btn">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span id="cart-count-info">0</span>
+                        </button>
+    
+                        <div class="cart-container">
+                            <div class="cart-list">
+                                <!-- cart here -->
+                            </div>
+    
+                            <div class="cart-total">
+                                <h3>Total: $</h3>
+                                <span id="cart-total-value">120.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+    <!-- ABout -->
+    
+        <div class="about" style="padding: 10px;">
+            <section id="ABOUT">
+                <div class="about-1">
+                    <h1> ABOUT US </h1>
+                    <P>sint Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus optio sectetur minima soluta
+                        nulla, alias tenetur doloribus vitae quo eaque, quae illo!fugit tempora ipsum maiores dolorum enim,
+                        beatae qui quasisint Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus optio
+                        sectetur
+                        minima soluta nulla, alias tenetur doloribus vitae quo eaque, quae illo!fugit tempora ipsum maiores
+                        dolorum enim, beatae qui quasi</P>
+                </div>
+                <div id="about-2">
+                    <div class="content-box-lg">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="about-item text-center">
+                                        <i class="fa fa-book"></i>
+                                        <h3>MISSION</h3>
+                                        <hr>
+                                        <p> Lorem ipsum dolor sit amet, consealias tenetur doloribus vitae quo eaque, quae
+                                            illo!fugit tempora ipsum maiores dolorum enim, beatae qui quasialias tenetur
+                                            doloribus vitae quo eaque, quae illo!fugit tempora ipsum maiores dolorum enim,
+                                            beatae qui quasictetur adipisicing elit. Ducimus optio </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="about-item text-center">
+                                        <i class="fa fa-globe"></i>
+                                        <h3>VISSION</h3>
+                                        <hr>
+                                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus optio sectetur
+                                            minima soluta nulla, alias tenetur doloribus vitae quo eaque, quae illo!fugit
+                                            tempora ipsum maiores dolorum enim, beatae qui quasialias tenetur doloribus
+                                            vitae
+                                            quo eaque, quae illo!fugit tempora ipsum maiores </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="about-item text-center">
+                                        <i class="fa fa-pencil"></i>
+                                        <h3>ACHIEVEMENTS</h3>
+                                        <hr>
+                                        <p> sint Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus optio
+                                            sectetur minima soluta doloribus vitae quo eaque, quae illo!fugit tempora ipsum
+                                            maiores dolorum enim, be doloribus vitae quo eaque, quae illo!fugit tempora
+                                            ipsum
+                                            maiores dolorum enim, beatae qui quasi </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    
+    
+        <!--footer--->
+        <footer>
+            <div class="row">
+                <div class="col">
+                    <h1>TRAVEL</h1>
+                    <p>Our company is a leader in the Mountaineering and Climbing industry and has been
+                        instrumental in setting guiding standards in the international climbing community. Our
+                        mission and goals are simple: by using the best climbing talent in the country, we offer
+                        the opportunity for climbers at all levels to achieve their personal aspirations through
+                        quality, challenging, safe and fun expeditions. Unparalleled mountain adventures are
+                        what we do.</p>
+                </div>
+                <div class="col">
+                    <h3>Office <div class="underline"><span></span></div>
+                    </h3>
+                    <p>International Wilderness Leadership</p>
+                    <p>PO Box 1081</p>
+                    <p>Haines, AK 99827</p>
+                    <p class="email-id">info@iwls.com</p>
+                    <p>866.480.2644</p>
+                </div>
+                <div class="col">
+                    <h3>Links <div class="underline"><span></span></div>
+                    </h3>
+                    <ul>
+                        <li><a href="product_card.html">Shop</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="basics.html">Basic</a></li>
+                        <li><a href="login.html">Contact</a></li>
+                        <li><a href="history.html">History</a></li>
+                        <li><a href="shelters.html">Shelter</a></li>
+                        <li><a href="videos.html">Videos</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3>Connect <div class="underline"><span></span></div>
+                    </h3>
+                    <div class="social-icons">
+                        <i class='bx bxl-facebook'></i>
+                        <i class='bx bxl-instagram-alt'></i>
+                        <i class='bx bxl-twitter'></i>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p class="copy-right"> &#169;2019 SUMMITS. ALL RIGHTS RESERVED.</p>
+        </footer>
+    </div>
 
-   
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtWHjE4oulI5QVVEZtezkzY77qldA9-5w"></script>
 
-<!-- footer -->
-	<footer>
-		<div class="row">
-			<div class="col">
-				<h1>TRAVEL</h1>
-				<p>Our company is a leader in the Mountaineering and Climbing industry and has been
-					instrumental in setting guiding standards in the international climbing community. Our
-					mission and goals are simple: by using the best climbing talent in the country, we offer
-					the opportunity for climbers at all levels to achieve their personal aspirations through
-					quality, challenging, safe and fun expeditions. Unparalleled mountain adventures are
-					what we do.</p>
-			</div>
-			<div class="col">
-				<h3>Office <div class="underline"><span></span></div></h3>
-				<p>International Wilderness Leadership</p>
-				<p>PO Box 1081</p>
-				<p>Haines, AK 99827</p>
-				<p class="email-id">info@iwls.com</p>
-				<p>866.480.2644</p>
-			</div>
-			<div class="col">
-				<h3>Links <div class="underline"><span></span></div></h3>
-				<ul>
-					<li><a href="/html/products/product_card.html">Shop</a></li>
-					<li><a href="/html/about.html">About</a></li>
-					<li><a href="/html//basics.html">Basic</a></li>
-					<li><a href="/html/login.html">Contact</a></li>
-					<li><a href="/html/history.html">History</a></li>
-					<li><a href="/html/shelters.html">Shelter</a></li>
-					<li><a href="/html/videos.html">Videos</a></li>
-				</ul>
-			</div>
-			<div class="col">
-				<h3>Connect <div class="underline"><span></span></div></h3>
-				<div class="social-icons">
-					<i class='bx bxl-facebook'></i>
-					<i class='bx bxl-instagram-alt'></i>
-					<i class='bx bxl-twitter'></i>
-				</div>
-			</div>
-		</div>
-		<hr>
-		<p class="copy-right"> &#169;2019 SUMMITS. ALL RIGHTS RESERVED.</p>
-	</footer>
 
     <script src="../javascrip/scrip.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.1.js"
@@ -189,5 +249,3 @@
 </body>
 
 </html>
-
-<!--if you manage it to this far, congratulations, check more on https://devhubke.com/projects-->

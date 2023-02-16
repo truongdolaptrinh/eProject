@@ -1,5 +1,5 @@
 [
-    {"id": "1", "nameSearch": "Shop", "links": "../html/products/product_card.html"},
+    {"id": "1", "nameSearch": "Shop", "links": "../html/product_card.html"},
     {"id": "2", "nameSearch": "History", "links": "../html/history.html"},
     {"id": "3", "nameSearch": "Types", "links": "../html/types.html"},
     {"id": "4", "nameSearch": "Videos", "links": "../html/videos.html"},
