@@ -310,6 +310,8 @@ body {
 .product-btn-group .heart{
     color: var(--grey);
     cursor: pointer;
+    background-color: red;
+      border-radius: 4px;
 }
 .product-btn-group .heart i{
     font-size: 20px;
@@ -476,4 +478,7 @@ body {
     padding: 11px;
     border-radius: 10px;
     width: 55vh;
+  }
+  .bold{
+    font-weight: bolder;
   }
