@@ -19,13 +19,16 @@
 }
 .about-1 h1{
     text-align: center;
-    color: rgb(249, 249, 249);
+    color: rgb(4, 4, 4);
     font-weight: bold;
 }
 .about-1 p{
     text-align: center;
     padding: 3px;
-    color: #fff;
+    color: #000000;
+}
+.about-item .p{
+    text-align: left;
 }
 
 /*===========================
@@ -35,7 +38,7 @@
 .about-item{
     margin-bottom: 20px;
     margin-top: 20px;
-    background-color: rgb(73, 100, 170);
+    background-color: rgba(196, 215, 218, 0.768);
     padding: 80px 30px;
     box-shadow: 0 0 9px rgba(0,0,0.6);
 }

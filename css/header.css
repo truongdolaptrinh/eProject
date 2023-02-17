@@ -444,6 +444,14 @@ footer{
   align-items: flex-start;
   justify-content: space-between;
 }
+.row2{
+  
+  width: 85%;
+    /* margin-left: auto; */
+    margin-bottom: 10vh;
+    margin-left: 9vh;
+    margin-top: 27px;
+}
 .row .col{
   flex-basis: 25%;
   padding: 10px;

@@ -8,7 +8,9 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
+body {
+    background-color: #fffffff5;
+}
 :root{
     --primary-color: #5344db;
     --accent-color: #5344db;
@@ -22,11 +24,12 @@
     position: relative;
     align-items: center;
     justify-content: center;
+    margin-top: 13vh;
 }
 
 .row{
     display: flex;
-    gap: 20px;
+    /* gap: 20px; */
     margin-top: 10%;
 }
 
@@ -66,6 +69,7 @@
 
 .single-product .product-image{
     width: 100%;
+    margin: -15px;
 }
 
 .product-image .product-image-main{
@@ -306,6 +310,8 @@
 .product-btn-group .heart{
     color: var(--grey);
     cursor: pointer;
+    background-color: red;
+      border-radius: 4px;
 }
 .product-btn-group .heart i{
     font-size: 20px;
@@ -388,10 +394,12 @@
     
 }
 .column2 {
-    float: left;
+    /* float: left;
     width: 50%;
-    padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
+    padding: 10px; */
+    /* height: 300px; Should be removed. Only for demonstration */
+    display: flex;
+    margin-left: ;
   }
   
   /* Clear floats after the columns */
@@ -465,4 +473,12 @@
   
   .select-items div:hover, .same-as-selected {
     background-color: rgba(0, 0, 0, 0.1);
+  }
+  .tua_de{
+    padding: 11px;
+    border-radius: 10px;
+    width: 55vh;
+  }
+  .bold{
+    font-weight: bolder;
   }
