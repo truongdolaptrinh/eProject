@@ -64,7 +64,6 @@ function loadJSON() {
       `;
     });
     productList.innerHTML = html;
-    console.log(productList);
   });
   // .catch(error => {
   //   alert(`User live server or local server`);
