@@ -43,7 +43,7 @@ function eventListeners(){
 }
 
 function loadingJSONSearch() {
-  fetch('../json/search.json')
+  fetch('search.json')
   .then(reponse => reponse.json())
   .then(data => {
     // console.log(data);
