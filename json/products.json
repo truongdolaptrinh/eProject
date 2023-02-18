@@ -23,70 +23,70 @@
     {
         "category": "Rope",
         "price": "175.00",
-        "name": "Soelden 32 Snow Pack - Men's",
+        "name": "Loopo Lite II - Climbing harness",
         "imgSrc": "../images/detail/Producct/Dây leo CAM -1.webp",
         "links": "../html/product_detail/detail5.html"
     },
     {
         "category": "Rope",
-        "price": "1,499.95",
-        "name": "black crows Dorsa 20 Pack",
+        "price": "199.95",
+        "name": "Solution - Climbing Harness",
         "imgSrc": "../images/detail/Producct/Dây leo TRắng -1.webp",
         "links": "../html/product_detail/detail6.html"
     },
     {
         "category": "Rope",
-        "price": "720.00",
-        "name": "Ascent 28 S AVABAG",
+        "price": "220.00",
+        "name": "Macchu - Climbing Harness",
         "imgSrc": "../images/detail/Producct/Dây leo ĐEN -1.webp",
         "links": "../html/product_detail/detail7.html"
     },
     {
         "category": "Gloves",
         "price": "25.00",
-        "name": "FrictionLabs Gorilla",
+        "name": "Wool Glove",
         "imgSrc": "../images/detail/Producct/Găng tay Nâu -1.webp",
         "links": "../html/product_detail/detail8.html"
     },
     {
         "category": "Gloves",
         "price": "59.95",
-        "name": "Black Diamond Half",
+        "name": "Powerstretch Touch Gloves",
         "imgSrc": "../images/detail/Producct/Găng tay ĐEN -1.webp",
         "links": "../html/product_detail/detail9.html"
     },
     {
         "category": "Shoses",
-        "price": "69.95",
-        "name": "Capitan Climbing",
+        "price": "60.95",
+        "name": "MQM 3 Mid GTX - Hiking shoes",
         "imgSrc": "../images/detail/Producct/giày CAM -1.webp",
         "links": "../html/product_detail/detail10.html"
     },
     {
         "category": "Shoses",
-        "price": "69.95",
-        "name": "Capitan Climbing",
+        "price": "79.95",
+        "name": "Lone Peak ALL-WTHR Mid",
         "imgSrc": "../images/detail/Producct/giày xanh lá - 1.webp",
         "links": "../html/product_detail/detail11.html"
     },
     {
         "category": "Shoses",
-        "price": "69.95",
-        "name": "Capitan Climbing",
+        "price": "129.95",
+        "name": "Renegade GTX® Mid Ws",
         "imgSrc": "../images/detail/Producct/giày đỏ - 1.webp",
         "links": "../html/product_detail/detail12.html"
     },
     {
         "category": "Helmet",
         "price": "69.95",
-        "name": "Capitan Climbing",
+        "name": "Winder Helmet - Ski helmet",
         "imgSrc": "../images/detail/Producct/Nón Xanh-1.webp",
         "links": "../html/product_detail/detail13.html"
     },
     {
         "category": "Petzl",
-        "price": "69.95",
-        "name": "Capitan Climbing",
+        "price": "99.95",
+        "name": "Ascent Auto / Semi-Automatic - Crampons",
         "imgSrc": "../images/detail/Producct/Răng Cưa CAM -1 .webp",
         "links": "../html/product_detail/detail14.html"
     }
