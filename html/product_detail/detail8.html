@@ -1,17 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Single E-commerce Product Page using HTML, CSS - Codingscape</title>
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="style.css">
-    <!---Boxicons CDN Setup for icons-->
-    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Single E-commerce Product Page using HTML, CSS - Codingscape</title>
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="../../css/header.css">
+        <link rel="stylesheet" href="../../css/footer.css">
+        <link rel="stylesheet" href="../../css/skills.css">
+        <!---Boxicons CDN Setup for icons-->
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    </head>
+    
 <body>
-    <div class="container">
+    
+    <header>
+        <div class="navbar">
+            <i class='bx bx-menu'></i>
+            <div class="logo"><a href="../../index.html">Travel</a></div>
+            <div class="nav-links">
+                <div class="sidebar-logo">
+                    <span class="logo-name">Travel</span>
+                    <i class='bx bx-x'></i>
+                </div>
+                <ul class="links">
+                    <li><a href="../../index.html">HOME</a></li>
+                    <li><a href="../../html/product_card.html">SHOP</a></li>
+                    <li>
+                        <a href="#">Practice</a>
+                        <i class='bx bxs-chevron-down htmlcss-arrow arrow'></i>
+                        <ul class="htmlCss-sub-menu sub-menu">
+                            <li><a href="../dangerous.html">Hazards</a></li>
+                            <li><a href="../theway.html">A beginner's guide</a></li>
+                            <li><a href="../menu_skills.html">Skills</a></li>
+                            <li><a href="../history.html">History</a></li>
+                            <li><a href="../types.html">Types</a></li>
+                            <li><a href="../shelters.html">Shelter</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Librarys</a>
+                        <i class='bx bxs-chevron-down js-arrow arrow'></i>
+                        <ul class="js-sub-menu sub-menu">
+                            <li><a href="../images.html">Photos</a></li>
+                            <li><a href="../videos.html">Videos</a></li>
+                            <li><a href="../film.html">Movies</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../basics.html">Basics</a></li>
+                    <li><a href="../about.html">About Us</a></li>
+                    <li><a href="../login.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="search-cart">
+                <div class="search-box">
+                    <i class='bx bx-search'></i>
+                    <div class="input-box">
+                        <input type="text" placeholder="Search...">
+                        <div class="search-box-menu">
+                            <!-- link search here -->
+                        </div>
+                    </div>
+                </div>
+                <div class="cart">
+                    <button type="button" id="cart-btn">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span id="cart-count-info">0</span>
+                    </button>
+
+                    <div class="cart-container">
+                        <div class="cart-list">
+                            <!-- cart here -->
+                        </div>
+
+                        <div class="cart-total">
+                            <h3>Total: $</h3>
+                            <span id="cart-total-value">120.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header><div class="container">
         <div class="single-product">
             <div class="row">
                 <div class="col-6">
@@ -80,52 +153,163 @@ Remember to set the width: -->
                 </div>
             </div>
 
-            <div class="row2">
-                <div class="column2">
-                  <h2>Features</h2>
-                    <ul>
-                        <li>Increased stack height for a plusher feel; new materials across the uppers, midsoles and outsoles</li>
-                        <li>Combines simplified mesh uppers with new, soft foam midsoles</li>
-                        <li>Added proprietary rubber on the bottoms with a reimagined outsole design delivers an all-terrain ride</li>
-                        <li>Inspired by gravel tires, the 4 mm lugs are tightly spaced in the center and larger, more aggressive at the perimeter to improve traction on uneven terrain</li>
-                        <li>Extended heel pulls make entry easy</li>
-                        <li>Recycled polyester laces</li>
-                    </ul>
+           <div class="row2">
+                <h2>Description</h2>
+
+                <div class="column2" style="padding: 26px;">
+                    <div style="margin-right: 20px;">
+                        <div class="tua_de" style="background-color: rgba(181, 197, 197, 0.693);">
+                            <span class="bold">Recommanded use</span> <br>
+                            <span>Hiking / Trekking / Travel</span>
+                        </div> <br>
+
+                        <div class="tua_de" style="background-color: rgba(181, 197, 197, 0.693);">
+                            <span class="bold">Other Features
+                            </span> <br>
+                            <span>Two handles / Key clip / Folding seat</span>
+                        </div> <br>
+                        <div class="tua_de" style="background-color: rgba(181, 197, 197, 0.693);">
+                            <span class="bold">Hydratation Compatible
+                            </span> <br>
+                            <span>Yes
+                            </span>
+                        </div> <br>
+                        <div class="tua_de" style="background-color: rgba(181, 197, 197, 0.693);">
+                            <span class="bold">Material(s)
+                            </span> <br>
+                            <span>210D Polyamide
+                            </span>
+                        </div> <br>
+                        <div class="tua_de" style="background-color: rgba(181, 197, 197, 0.693);">
+                            <span class="bold">Waterproof
+                            </span> <br>
+                            <span>No
+
+                            </span>
+                        </div> <br>
+                        <div class="tua_de" style="background-color: rgba(181, 197, 197, 0.693);">
+                            <span class="bold">Weight
+
+                            </span> <br>
+                            <span>3 230 g
+
+                            </span>
+                        </div> <br>
+                    </div>
+
+                    <div>
+                        <div class="tua_de" style="background-color: rgba(181, 197, 197, 0.693);">
+                            <span class="bold">Max Weight
+
+                            </span> <br>
+                            <span>24 kg
+
+                            </span>
+                        </div> <br>
+                        <div class="tua_de" style="background-color: rgba(181, 197, 197, 0.693);">
+                            <span class="bold">Reference supplier
+
+                            </span> <br>
+                            <span>3620221
+
+                            </span>
+                        </div> <br>
+                        <div class="tua_de" style="background-color: rgba(181, 197, 197, 0.693);">
+                            <span class="bold">Gender
+
+                            </span> <br>
+                            <span>Men / Women
+
+                            </span>
+                        </div> <br>
+                        <div class="tua_de" style="background-color: rgba(181, 197, 197, 0.693);">
+                            <span class="bold">Sustainability
+
+                            </span> <br>
+                            <span>Fair Wear Foundation / PFC-Free
+
+                            </span>
+                        </div> <br>
+                        <div class="tua_de" style="background-color: rgba(181, 197, 197, 0.693);">
+                            <span class="bold">Item
+
+                            </span> <br>
+                            <span>Kid Comfort + PPPS 2021
+
+                            </span>
+                        </div> <br>
+                        <div class="tua_de" style="background-color: rgba(181, 197, 197, 0.693);">
+                            <span class="bold">Items
+
+                            </span> <br>
+                            <span>Porte-bébé randonnée
+
+                            </span>
+                        </div> <br>
+
+
+                        </span>
+                    </div> <br>
+
                 </div>
-                <div class="column2">
-                  <h2>Technical Specs</h2>
-                    <table>
-                        <tr>
-                            <th>Best Use</th>
-                            <td>Trail Running</td>
-                        </tr>
-                        <tr>
-                            <th></th>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <th></th>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <th></th>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <th></th>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <th></th>
-                            <td></td>
-                        </tr>
-                    </table>
-                </div>
-              </div>
+
+
+
+            </div>
         </div>
     </div>
 
+    <!--footer--->
+    <footer>
+        <div class="row">
+            <div class="col">
+                <h1>TRAVEL</h1>
+                <p>Our company is a leader in the Mountaineering and Climbing industry and has been
+                    instrumental in setting guiding standards in the international climbing community. Our
+                    mission and goals are simple: by using the best climbing talent in the country, we offer
+                    the opportunity for climbers at all levels to achieve their personal aspirations through
+                    quality, challenging, safe and fun expeditions. Unparalleled mountain adventures are
+                    what we do.</p>
+            </div>
+            <div class="col">
+                <h3>Office <div class="underline"><span></span></div>
+                </h3>
+                <p>International Wilderness Leadership</p>
+                <p>PO Box 1081</p>
+                <p>Haines, AK 99827</p>
+                <p class="email-id">info@iwls.com</p>
+                <p>866.480.2644</p>
+            </div>
+            <div class="col">
+                <h3>Links <div class="underline"><span></span></div>
+                </h3>
+                <ul>
+                    <li><a href="../products/product_card.html">Shop</a></li>
+                    <li><a href="../about.html">About</a></li>
+                    <li><a href="..//basics.html">Basic</a></li>
+                    <li><a href="../login.html">Contact</a></li>
+                    <li><a href="../history.html">History</a></li>
+                    <li><a href="../shelters.html">Shelter</a></li>
+                    <li><a href="../videos.html">Videos</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>Connect <div class="underline"><span></span></div>
+                </h3>
+                <div class="social-icons">
+                    <i class='bx bxl-facebook'></i>
+                    <i class='bx bxl-instagram-alt'></i>
+                    <i class='bx bxl-twitter'></i>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="copy-right"> &#169;2019 SUMMITS. ALL RIGHTS RESERVED.</p>
+    </footer>
     <!--script-->
     <script src="script.js"></script>
+    <script src="../../javascrip/header.js"></script>
+    <script src="../../javascrip/scrip.js"></script>
+    <script src="../../javascrip/product.js"></script>
 </body>
 </html>
