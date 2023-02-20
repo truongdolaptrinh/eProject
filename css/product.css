@@ -164,6 +164,12 @@
 	background-color: #23272a;
 	color: var(--fire-bush);
 }
+.product-name{
+	overflow: hidden;
+	text-overflow: ellipsis;
+ 	white-space: nowrap;
+	width: 95%;
+}
 
 .product-category{
 	margin: 0.5rem 0;
