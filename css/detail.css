@@ -447,7 +447,7 @@ body {
   }
   
   /* style the items (options), including the selected item: */
- .select-selected {
+  .select-items div,.select-selected {
     color: #090101;
     padding: 8px 16px;
     border: 2px solid transparent;
